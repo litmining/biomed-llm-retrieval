@@ -52,9 +52,6 @@ class fMRITaskMetadataModel(TaskMetadataModel):
     RestingState: bool = Field(
         description="Was this task a resting state task?"
         )
-    RestingStateMetadata: Optional[Dict[str, str]] = Field(
-        description="Additional details about the resting-state task, such as duration and instructions provided to participants, if applicable."
-    )
     TaskDesign: List[Literal["Blocked", "EventRelated", "Mixed", "Other"]] = Field(
         description="Design(s) of the task"
         )
@@ -62,6 +59,18 @@ class fMRITaskMetadataModel(TaskMetadataModel):
         description="Total duration of the task, e.g., '10 minutes' or '600 seconds'."
     )
 
+class fMRITaskMetadataModelNoMC(TaskMetadataModel):
+    RestingState: bool = Field(
+        description="Was this task a resting state task?"
+        )
+    TaskDuration: Optional[str] = Field(
+        description="Total duration of the task, e.g., '10 minutes' or '600 seconds'."
+    )
+
+class fMRITaskMetadataModelRSM(fMRITaskMetadataModel):
+    RestingStateMetadata: Dict[str, str] = Field(
+        description="Additional details about the resting-state task, such as duration and instructions provided to participants, if applicable."
+    )
 
 class StudyMetadataModel(BaseModel):
     Modality: List[Literal["fMRI-BOLD", "StructuralMRI", "DiffusionMRI", "PET FDG", "PET [15O]-water", "fMRI-CBF", "fMRI-CBV", "MEG", "EEG", "Other"]] = Field(
@@ -79,6 +88,18 @@ class StudyMetadataModel(BaseModel):
     BehavioralTasks: List[TaskMetadataModel] = Field(
         description="List of behavioral tasks performed by the subjects outside the scanner and their metadata. If the study did not include behavioral tasks, leave this field empty."
         )
+    
+class StudyMetadataModelNoMC(BaseModel):
+    StudyObjective: Optional[str] = Field(
+        description="A brief summary of the primary research question or objective of the study."
+    )
+    fMRITasks: List[fMRITaskMetadataModelNoMC] = Field(
+        description="List of fMRI tasks performed by the subjects inside the scanner and their metadata. If the study did not include fMRI tasks, leave this field empty."
+        )
+    BehavioralTasks: List[TaskMetadataModel] = Field(
+        description="List of behavioral tasks performed by the subjects outside the scanner and their metadata. If the study did not include behavioral tasks, leave this field empty."
+        )
+
 
 class NeuroVaultDetailedMetdata(BaseModel):
     TypeOfDesign: str = Field(

@@ -8,7 +8,7 @@ from tqdm import tqdm
 # Change directory for importing
 import sys
 sys.path.append('../')
-from nipub_templates.nv_task.schemas import StudyMetadataModel
+from nipub_templates.nv_task.schemas import StudyMetadataModelNoMC
 from nipub_templates.conversion import schema_to_template
 
 # Read JSON lines
@@ -101,6 +101,7 @@ def load_model(model_name):
     torch.cuda.empty_cache()
     model = AutoModelForCausalLM.from_pretrained(
         model_name, torch_dtype=torch.bfloat16, trust_remote_code=True,
+        attn_implementation="flash_attention_2",
         device_map="auto").eval()
     tokenizer = AutoTokenizer.from_pretrained(model_name, trust_remote_code=True)
     return model, tokenizer
@@ -113,6 +114,7 @@ def run_NuExtract(
     mode = "sliding_window",
     ids = None,
     outfile = None,
+    window_size = 2000,
     **kwargs
 ):
     template = schema_to_template(schema.model_json_schema(), version="v1")
@@ -126,6 +128,7 @@ def run_NuExtract(
                     _func = full_text_prediction
                 else:
                     _func = sliding_window_prediction
+                    kwargs['window_size'] = window_size
 
                 result = json.loads(
                     _func(
@@ -151,8 +154,11 @@ def run_NuExtract(
 def _run(extraction_model, docs, schema, prepend='', **extract_kwargs):
     short_model_name = extraction_model.split('/')[-1]
     
+    # Add extract_kwargs to the output filename
+    extract_kwargs_str = '_'.join([f"{k}={v}" for k, v in extract_kwargs.items()])
+    
     outfile = OUTPUT_DIR / \
-        f"full_{prepend}_{short_model_name}.jsonl"
+        f"full_{prepend}_{short_model_name}_{extract_kwargs_str}.jsonl"
 
     run_NuExtract(
         docs['text'].to_list(),
@@ -165,6 +171,6 @@ def _run(extraction_model, docs, schema, prepend='', **extract_kwargs):
 
 if __name__ == '__main__':
     _run(
-        "numind/NuExtract-v1.5", docs, StudyMetadataModel, 
-        prepend='lb_nv_taskstructured-zeroshot'
+        "numind/NuExtract-v1.5", docs, StudyMetadataModelNoMC, 
+        prepend='lb_nv_taskstructuredNOMC-zeroshot', window_size=5000,
     )

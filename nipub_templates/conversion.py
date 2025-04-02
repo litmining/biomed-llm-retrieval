@@ -29,6 +29,7 @@ V2 Template Example:
 
 """
 
+import json
 
 def schema_to_template(schema: dict, version: str = "v1") -> dict:
     """
@@ -158,4 +159,10 @@ def schema_to_template(schema: dict, version: str = "v1") -> dict:
         return defaults.get(json_type, "")
 
     # Now build the template from the top-level schema
-    return build_template(schema)
+    template = build_template(schema)
+    if version == "v1":
+        template = json.dumps(template, indent=4)
+    else:
+        template = json.dumps(template)
+
+    return template
