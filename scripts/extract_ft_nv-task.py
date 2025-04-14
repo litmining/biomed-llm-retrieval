@@ -21,31 +21,19 @@ output_dir.mkdir(parents=True, exist_ok=True)
 # Set up OpenAI clients
 openai_client = OpenAI(api_key=os.getenv('MYOPENAI_API_KEY'))
 
-
 def _run(extraction_model, extraction_client, docs, prepend='', **extract_kwargs):
-    prepend += '_'
-    short_model_name = extraction_model.split('/')[-1]
-    
-    pmcids = [d['pmcid'] for d in docs['metadata']]
-
-    name = f"full_{prepend}{short_model_name}"
-    predictions_path = output_dir / f'{name}.json'
-
     # Extract
     predictions = extract_from_text(
         docs['text'].to_list(),
         model=extraction_model, client=extraction_client,
+        ids=[d['pmcid'] for d in docs['metadata']]
         **extract_kwargs
     )
 
-    # Add abstract id to predictions
-    outputs = []
-    for pred, _id in zip(predictions, pmcids):
-        if pred:    
-            pred['pmcid'] = _id
-            outputs.append(pred)
+    name = f"full_{prepend}_{extraction_model.split('/')[-1]}"
+    predictions_path = output_dir / f'{name}.json'
 
-    json.dump(outputs, open(predictions_path, 'w'))
+    json.dump(predictions, open(predictions_path, 'w'))
 
 
 models = [

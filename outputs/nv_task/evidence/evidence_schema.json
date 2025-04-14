@@ -1,0 +1,412 @@
+{
+    "$defs": {
+        "TaskMetadataModelEvidence": {
+            "description": "Model for capturing text evidence locations for fields extracted using TaskMetadataModel.\nEach field ending in '_Evidence' corresponds to a field in the original model.\nEvidence is provided as lists of (start_char, end_char) tuples referencing the source text.\nFor list fields in the original model, the evidence field mirrors the list structure.",
+            "properties": {
+                "TaskName_Evidence": {
+                    "default": [],
+                    "description": "List of text spans (start_char, end_char tuples) from the source text providing evidence for the extracted 'TaskName' value.",
+                    "items": {
+                        "maxItems": 2,
+                        "minItems": 2,
+                        "prefixItems": [
+                            {
+                                "type": "integer"
+                            },
+                            {
+                                "type": "integer"
+                            }
+                        ],
+                        "type": "array"
+                    },
+                    "title": "Taskname Evidence",
+                    "type": "array"
+                },
+                "TaskDescription_Evidence": {
+                    "default": [],
+                    "description": "List of text spans (start_char, end_char tuples) from the source text providing evidence for the extracted 'TaskDescription' value.",
+                    "items": {
+                        "maxItems": 2,
+                        "minItems": 2,
+                        "prefixItems": [
+                            {
+                                "type": "integer"
+                            },
+                            {
+                                "type": "integer"
+                            }
+                        ],
+                        "type": "array"
+                    },
+                    "title": "Taskdescription Evidence",
+                    "type": "array"
+                },
+                "DesignDetails_Evidence": {
+                    "default": [],
+                    "description": "List of text spans (start_char, end_char tuples) from the source text providing evidence for the extracted 'DesignDetails' value.",
+                    "items": {
+                        "maxItems": 2,
+                        "minItems": 2,
+                        "prefixItems": [
+                            {
+                                "type": "integer"
+                            },
+                            {
+                                "type": "integer"
+                            }
+                        ],
+                        "type": "array"
+                    },
+                    "title": "Designdetails Evidence",
+                    "type": "array"
+                },
+                "Conditions_Evidence": {
+                    "anyOf": [
+                        {
+                            "items": {
+                                "items": {
+                                    "maxItems": 2,
+                                    "minItems": 2,
+                                    "prefixItems": [
+                                        {
+                                            "type": "integer"
+                                        },
+                                        {
+                                            "type": "integer"
+                                        }
+                                    ],
+                                    "type": "array"
+                                },
+                                "type": "array"
+                            },
+                            "type": "array"
+                        },
+                        {
+                            "type": "null"
+                        }
+                    ],
+                    "default": null,
+                    "description": "List of evidence lists, one for each item in the original 'Conditions' list. Each inner list contains text spans (start_char, end_char tuples) providing evidence for the corresponding item.",
+                    "title": "Conditions Evidence"
+                },
+                "TaskMetrics_Evidence": {
+                    "anyOf": [
+                        {
+                            "items": {
+                                "items": {
+                                    "maxItems": 2,
+                                    "minItems": 2,
+                                    "prefixItems": [
+                                        {
+                                            "type": "integer"
+                                        },
+                                        {
+                                            "type": "integer"
+                                        }
+                                    ],
+                                    "type": "array"
+                                },
+                                "type": "array"
+                            },
+                            "type": "array"
+                        },
+                        {
+                            "type": "null"
+                        }
+                    ],
+                    "default": null,
+                    "description": "List of evidence lists, one for each item in the original 'TaskMetrics' list. Each inner list contains text spans (start_char, end_char tuples) providing evidence for the corresponding item.",
+                    "title": "Taskmetrics Evidence"
+                }
+            },
+            "title": "TaskMetadataModelEvidence",
+            "type": "object"
+        },
+        "fMRITaskMetadataModelEvidence": {
+            "description": "Model for capturing text evidence locations for fields extracted using fMRITaskMetadataModel.\nEach field ending in '_Evidence' corresponds to a field in the original model.\nEvidence is provided as lists of (start_char, end_char) tuples referencing the source text.\nFor list fields in the original model, the evidence field mirrors the list structure.",
+            "properties": {
+                "TaskName_Evidence": {
+                    "default": [],
+                    "description": "List of text spans (start_char, end_char tuples) from the source text providing evidence for the extracted 'TaskName' value.",
+                    "items": {
+                        "maxItems": 2,
+                        "minItems": 2,
+                        "prefixItems": [
+                            {
+                                "type": "integer"
+                            },
+                            {
+                                "type": "integer"
+                            }
+                        ],
+                        "type": "array"
+                    },
+                    "title": "Taskname Evidence",
+                    "type": "array"
+                },
+                "TaskDescription_Evidence": {
+                    "default": [],
+                    "description": "List of text spans (start_char, end_char tuples) from the source text providing evidence for the extracted 'TaskDescription' value.",
+                    "items": {
+                        "maxItems": 2,
+                        "minItems": 2,
+                        "prefixItems": [
+                            {
+                                "type": "integer"
+                            },
+                            {
+                                "type": "integer"
+                            }
+                        ],
+                        "type": "array"
+                    },
+                    "title": "Taskdescription Evidence",
+                    "type": "array"
+                },
+                "DesignDetails_Evidence": {
+                    "default": [],
+                    "description": "List of text spans (start_char, end_char tuples) from the source text providing evidence for the extracted 'DesignDetails' value.",
+                    "items": {
+                        "maxItems": 2,
+                        "minItems": 2,
+                        "prefixItems": [
+                            {
+                                "type": "integer"
+                            },
+                            {
+                                "type": "integer"
+                            }
+                        ],
+                        "type": "array"
+                    },
+                    "title": "Designdetails Evidence",
+                    "type": "array"
+                },
+                "Conditions_Evidence": {
+                    "anyOf": [
+                        {
+                            "items": {
+                                "items": {
+                                    "maxItems": 2,
+                                    "minItems": 2,
+                                    "prefixItems": [
+                                        {
+                                            "type": "integer"
+                                        },
+                                        {
+                                            "type": "integer"
+                                        }
+                                    ],
+                                    "type": "array"
+                                },
+                                "type": "array"
+                            },
+                            "type": "array"
+                        },
+                        {
+                            "type": "null"
+                        }
+                    ],
+                    "default": null,
+                    "description": "List of evidence lists, one for each item in the original 'Conditions' list. Each inner list contains text spans (start_char, end_char tuples) providing evidence for the corresponding item.",
+                    "title": "Conditions Evidence"
+                },
+                "TaskMetrics_Evidence": {
+                    "anyOf": [
+                        {
+                            "items": {
+                                "items": {
+                                    "maxItems": 2,
+                                    "minItems": 2,
+                                    "prefixItems": [
+                                        {
+                                            "type": "integer"
+                                        },
+                                        {
+                                            "type": "integer"
+                                        }
+                                    ],
+                                    "type": "array"
+                                },
+                                "type": "array"
+                            },
+                            "type": "array"
+                        },
+                        {
+                            "type": "null"
+                        }
+                    ],
+                    "default": null,
+                    "description": "List of evidence lists, one for each item in the original 'TaskMetrics' list. Each inner list contains text spans (start_char, end_char tuples) providing evidence for the corresponding item.",
+                    "title": "Taskmetrics Evidence"
+                },
+                "RestingState_Evidence": {
+                    "default": [],
+                    "description": "List of text spans (start_char, end_char tuples) from the source text providing evidence for the extracted 'RestingState' value.",
+                    "items": {
+                        "maxItems": 2,
+                        "minItems": 2,
+                        "prefixItems": [
+                            {
+                                "type": "integer"
+                            },
+                            {
+                                "type": "integer"
+                            }
+                        ],
+                        "type": "array"
+                    },
+                    "title": "Restingstate Evidence",
+                    "type": "array"
+                },
+                "TaskDesign_Evidence": {
+                    "default": [],
+                    "description": "List of evidence lists, one for each item in the original 'TaskDesign' list. Each inner list contains text spans (start_char, end_char tuples) providing evidence for the corresponding item.",
+                    "items": {
+                        "items": {
+                            "maxItems": 2,
+                            "minItems": 2,
+                            "prefixItems": [
+                                {
+                                    "type": "integer"
+                                },
+                                {
+                                    "type": "integer"
+                                }
+                            ],
+                            "type": "array"
+                        },
+                        "type": "array"
+                    },
+                    "title": "Taskdesign Evidence",
+                    "type": "array"
+                },
+                "TaskDuration_Evidence": {
+                    "anyOf": [
+                        {
+                            "items": {
+                                "maxItems": 2,
+                                "minItems": 2,
+                                "prefixItems": [
+                                    {
+                                        "type": "integer"
+                                    },
+                                    {
+                                        "type": "integer"
+                                    }
+                                ],
+                                "type": "array"
+                            },
+                            "type": "array"
+                        },
+                        {
+                            "type": "null"
+                        }
+                    ],
+                    "default": null,
+                    "description": "List of text spans (start_char, end_char tuples) from the source text providing evidence for the extracted 'TaskDuration' value.",
+                    "title": "Taskduration Evidence"
+                }
+            },
+            "title": "fMRITaskMetadataModelEvidence",
+            "type": "object"
+        }
+    },
+    "description": "Model for capturing text evidence locations for fields extracted using StudyMetadataModel.\nEach field ending in '_Evidence' corresponds to a field in the original model.\nEvidence is provided as lists of (start_char, end_char) tuples referencing the source text.\nFor list fields in the original model, the evidence field mirrors the list structure.",
+    "properties": {
+        "Modality_Evidence": {
+            "default": [],
+            "description": "List of evidence lists, one for each item in the original 'Modality' list. Each inner list contains text spans (start_char, end_char tuples) providing evidence for the corresponding item.",
+            "items": {
+                "items": {
+                    "maxItems": 2,
+                    "minItems": 2,
+                    "prefixItems": [
+                        {
+                            "type": "integer"
+                        },
+                        {
+                            "type": "integer"
+                        }
+                    ],
+                    "type": "array"
+                },
+                "type": "array"
+            },
+            "title": "Modality Evidence",
+            "type": "array"
+        },
+        "StudyObjective_Evidence": {
+            "anyOf": [
+                {
+                    "items": {
+                        "maxItems": 2,
+                        "minItems": 2,
+                        "prefixItems": [
+                            {
+                                "type": "integer"
+                            },
+                            {
+                                "type": "integer"
+                            }
+                        ],
+                        "type": "array"
+                    },
+                    "type": "array"
+                },
+                {
+                    "type": "null"
+                }
+            ],
+            "default": null,
+            "description": "List of text spans (start_char, end_char tuples) from the source text providing evidence for the extracted 'StudyObjective' value.",
+            "title": "Studyobjective Evidence"
+        },
+        "Exclude_Evidence": {
+            "anyOf": [
+                {
+                    "items": {
+                        "maxItems": 2,
+                        "minItems": 2,
+                        "prefixItems": [
+                            {
+                                "type": "integer"
+                            },
+                            {
+                                "type": "integer"
+                            }
+                        ],
+                        "type": "array"
+                    },
+                    "type": "array"
+                },
+                {
+                    "type": "null"
+                }
+            ],
+            "default": null,
+            "description": "List of text spans (start_char, end_char tuples) from the source text providing evidence for the extracted 'Exclude' value.",
+            "title": "Exclude Evidence"
+        },
+        "fMRITasks_Evidence": {
+            "default": [],
+            "description": "List of evidence structures, one for each item in the original 'fMRITasks' list. Each structure contains text spans (start_char, end_char tuples) providing evidence for the corresponding item's fields.",
+            "items": {
+                "$ref": "#/$defs/fMRITaskMetadataModelEvidence"
+            },
+            "title": "Fmritasks Evidence",
+            "type": "array"
+        },
+        "BehavioralTasks_Evidence": {
+            "default": [],
+            "description": "List of evidence structures, one for each item in the original 'BehavioralTasks' list. Each structure contains text spans (start_char, end_char tuples) providing evidence for the corresponding item's fields.",
+            "items": {
+                "$ref": "#/$defs/TaskMetadataModelEvidence"
+            },
+            "title": "Behavioraltasks Evidence",
+            "type": "array"
+        }
+    },
+    "title": "StudyMetadataModelEvidence",
+    "type": "object"
+}
