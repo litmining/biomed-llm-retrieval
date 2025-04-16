@@ -45,4 +45,4 @@ MESSAGES =  [
         "role": "user",
         "content": base_message + "\n Call the extractData function to save the output."
     }
-],
+]

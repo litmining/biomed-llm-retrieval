@@ -15,28 +15,56 @@ OUTPUT_DIR = Path('../outputs/nv_task/evidence')
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 # Read JSON lines
-docs = pd.read_json('../../labelbuddy-annotations/projects/nv_task/documents/task_0.jsonl', lines=True)
+docs = pd.read_json('../../labelbuddy-annotations/projects/nv_task/documents/batch_0.jsonl', lines=True)
+# Limit to 2 documents for testing
+docs = docs.iloc[:2]
+# Get doc_ids from the metadata
+doc_ids = [d['pmcid'] for d in docs['metadata']]
 
-output_dir = Path('../outputs/nv_task/extractions')
+output_dir = Path('../outputs/nv_task/')
 output_dir.mkdir(parents=True, exist_ok=True)
 
 # Set up OpenAI clients
 openai_client = OpenAI(api_key=os.getenv('MYOPENAI_API_KEY'))
 
-StudyMetadataEvidenceModel = create_evidence_model(StudyMetadataModel)
+evidence_schema = create_evidence_model(StudyMetadataModel).model_json_schema()
 
-previous_outputs = pd.read_json(output_dir / 'full_lb_nv_taskstructured-zeroshot_gpt-4o-mini-2024-07-18.jsonl', lines=True)
-previous_outputs = {d.pop('pmcid'): d for d in previous_outputs}
 
-doc_ids = [d['pmcid'] for d in docs['metadata']],
+def prepare_input_args(
+    doc_ids, previous_outputs_path
+):
+    """Prepare input arguments for the extraction process."""
+    # Load previous outputs
+    with open(previous_outputs_path) as f:
+        previous_outputs = json.loads(f.read())
+    previous_outputs = {d.pop('pmcid'): d for d in previous_outputs}
 
-# Sort previous inputs by d['pmcid'] based on doc_ids
-input_args = []
-for doc_id in doc_ids:
-    if doc_id in previous_outputs:
-        input_args.append({'prompt_subsitutions': previous_outputs[doc_id]})
-    else:
-        input_args.append({'prompt_subsitutions': {'pmcid': doc_id, 'text': ''}})
+    # Prepare input arguments
+    input_args = []
+    for doc_id in doc_ids:
+        if doc_id in previous_outputs:
+            input_args.append(
+                {
+                    'prompt_substitutions': {
+                        'previous_extraction_json': json.dumps(previous_outputs[doc_id])
+                    }
+                }
+            )
+        else:
+            input_args.append(
+                {
+                    'prompt_substitutions': {
+                        'previous_extraction_json': '{}'
+                    }
+                }
+            )
+    return input_args
+
+# Prepare input arguments
+previous_outputs_path = output_dir / 'extractions/full_lb_nv_taskstructured-zeroshot_gpt-4o-mini-2024-07-18.jsonl'
+input_args = prepare_input_args(
+    doc_ids, previous_outputs_path
+)
 
 
 def _run(extraction_model, extraction_client, docs, prepend='', **extract_kwargs):
@@ -47,28 +75,18 @@ def _run(extraction_model, extraction_client, docs, prepend='', **extract_kwargs
         **extract_kwargs
     )
 
-    # Add abstract id to predictions
-    pmcids = [d['pmcid'] for d in docs['metadata']]
-    outputs = []
-    for pred, _id in zip(predictions, pmcids):
-        if pred:    
-            pred['pmcid'] = _id
-            outputs.append(pred)
-
     name = f"full_{prepend}_{extraction_model.split('/')[-1]}"
-    predictions_path = output_dir / f'{name}.json'
+    predictions_path = output_dir / 'evidence' / f'{name}.json'
 
-    json.dump(outputs, open(predictions_path, 'w'))
+    json.dump(predictions, open(predictions_path, 'w'))
 
 
 models = [
-    ("gpt-4o-mini-2024-07-18", openai_client),
+    ("gpt-4o-mini-2024-07-18", openai_client)
     # ("anthropic/claude-3.5-sonnet", openrouter_client),
 ]
 
-for model_name, client, kwargs in models:
+for model_name, client in models:
     _run(model_name, client, docs, prepend='nv_taskstructured-evidence',
-         messages=MESSAGES, output_schema=StudyMetadataEvidenceModel.model_json_schema(),
-         ids=doc_ids
-         num_workers=10, input_args=input_args, **kwargs
-         )
+         messages=MESSAGES, output_schema=evidence_schema,
+         ids=doc_ids, num_workers=1, input_args=input_args)
