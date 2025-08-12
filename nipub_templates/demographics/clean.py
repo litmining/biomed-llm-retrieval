@@ -48,3 +48,19 @@ def clean_predictions(predictions):
     )
 
     return predictions
+
+
+def clean_predictions_pain(predictions):
+    # Clean known issues with GPT demographics predictions
+    predictions = [p for p in predictions if "groups" in p]
+
+    meta_keys = ["pmcid", "rank", "start_char", "end_char", "id"]
+    meta_keys = [k for k in meta_keys if k in predictions[0]]
+    
+    # Convert JSON to DataFrame
+    predictions = pd.json_normalize(
+        predictions, record_path=["groups"],
+        meta=meta_keys
+        )
+    
+    return predictions

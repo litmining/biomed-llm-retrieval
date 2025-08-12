@@ -28,9 +28,75 @@
 ## Example
 
 {
-    "Modality": "fMRI-BOLD",
-    "
+    "Modality": ["fMRI-BOLD"],
+    "StudyObjective": "To investigate how varying levels of cognitive load modulate brain activity and behavior during working memory tasks.",
+    "fMRITasks": [
+        {
+            "TaskName": "N-back",
+            "TaskDescription": "Participants view a continuous stream of letters on the screen and must indicate whether each letter matches the one presented N trials before.",
+            "DesignDetails": "Block design with 0-back (control), 1-back, and 2-back conditions. Each letter appears for 500 ms, followed by a 2-second interstimulus interval.",
+            "Conditions": ["0-back", "1-back", "2-back"],
+            "TaskMetrics": ["Accuracy", "Reaction Time"],
+            "RestingState": true,
+            "TaskDesign": ['Blocked']
+            "TaskDuration": "Approximately 12 minutes"
+        }
+    ],
+    "BehavioralTasks": [
+        {
+            "TaskName": "Digit Span",
+            "TaskDescription": "A traditional working memory span task where participants must recall sequences of digits in correct order.",
+            "DesignDetails": "Digits are read aloud or presented on-screen one at a time. The length of the digit string increases each trial until participants can no longer accurately recall the sequence.",
+            "Conditions": ["Forward Span", "Backward Span"],
+            "TaskMetrics": ["Span Score"]
+        }
+    ]
 }
 
 ## Text:
 
+Introduction
+
+Fear is an acute behavioural and physiological reaction to perceived threat, which has been observed in all mammals and probably evolved because it is useful for survival and avoidance of pain [1]. Recent research using functional magnetic resonance imaging (fMRI) has identified the amygdala and the anterior insula as key brain structures associated with the experience of fear [2–4]. While the amygdala is important for the detection of environmental ‘fear’ cues [5], the anterior insula seems to play the role of integrating internal bodily perceptions and information from external cues to create the experienced emotional state [6]. Both these structures have shown increased levels of activity when phobic participants are presented with phobia related material [7–10], but also when healthy controls are confronted with negative images [7,11,12].
+
+Studies using magnetic resonance spectroscopy (MRS) have also shown that individuals suffering from anxiety disorders have reduced GABA concentration in the occipital cortex [13], the anterior cingulate and basal ganglia [14], and the insula [15]. Also, by enhancing GABA transmission pharmacologically, fear responses [1,16] and emotion related BOLD responses in the insula and the amygdala are attenuated [17–19]. All these suggest a relationship between GABA neurotransmission and fear-related BOLD responses. However, thus far, this hypothesis has not been directly tested. Previous studies have reported a negative relationship between stimulus-induced BOLD contrast and GABA in the visual cortex [20–22] and the anterior cingulate [23]. Our aim was to investigate the relationship between fear induced BOLD responses and GABA concentration in the insula. We recruited participants with either high or low fearfulness and confronted them with a paradigm designed to elicit fear-related BOLD responses. GABA concentration in the insula was assessed in a separate MRS scan at the end of the same scanning session. We expected stronger BOLD responses upon fear inducing stimuli in the insula and amygdala of highly fearful participants, as well as lower GABA concentration in the insula. We also expected a negative correlation between fear-related BOLD changes and GABA concentration in the insula.
+Methods
+2.1. Participants
+
+Five-hundred and seventy-four females (Mean[Std] age = 21[4]) from Cardiff University (students and staff) underwent an online screening, consisting of the Fear-Survey Schedule-II (FSSII, [24]) and the Fear of Spider Questionnaire (FSQ, [25]). The FSSII consists of 51 items assessing fear to a wide variety of potential stimuli/situations. The FSQ consists of 18 items assessing fear of spiders; this questionnaire has also shown to discriminate among levels of spider fear within non-phobic population [26], which was important for our recruitment strategy. Both questionnaires have previously shown adequate psychometric properties [24–26].
+
+Since our aim was to recruit a sample of participants with either high or low fearfulness and to induce fear in them via the presentation of still images of specific feared stimuli, we invited candidates with the lowest and highest scores in both questionnaires to participate in the imaging study. Therefore, we aimed for a group of low fearful participants who were also not afraid of spiders, and a group of high fearful participants who all shared their fear of spiders. Fig. 1 illustrates the recruitment criteria on both questionnaires.
+The scatter plot for the whole screening sample (N = 574) is shown, with scores in the Fear of Spider questionnaire on the x-axis, and the Fear Survey Schedule II on the y-axis. The purple box illustrates the recruitment thresholds for the high-fear group, the blue box the thresholds for the low-fear group.
+
+Candidates were screened over the telephone to ascertain their MRI compatibility, right-handedness, and absence of current or personal history of psychosis, mood or anxiety disorders—other than potential specific spider phobia—according to the MINI International Neuropsychiatric Interview (MINI, [27]). On the day of the scan, participants were requested to complete again the FSSII and FSQ, along with the State and Trait Anxiety Inventory (STAI, [28]), Hospital Anxiety and Depression scale (HADS; [29]), and the General Health Questionnaire (GHQ-12, [30]). Table 1 shows the mean scores on all the questionnaires.
+Table 1. Questionnaires.
+Measure 	High fear 	Low fear 	t 	p
+Age 	21.5 (3.1) 	21.1 (2.9) 	0.48 	.63
+FSQ 	5.30 (0.85) 	1.22 (0.40) 	18.9 	< .001
+FSS-II 	4.19 (0.71) 	1.93 (0.80) 	9.2 	< .001
+STAI state 	1.60 (0.39) 	1.55 (0.30) 	0.46 	.65
+STAI trait 	2.03 (0.14) 	1.82 (0.11) 	1.69 	.10
+GHQ 	0.86 (0.34) 	0.79 (0.30) 	0.72 	.47
+HADS anxiety 	1.07 (0.33) 	0.84 (0.22) 	2.46 	.02
+HADS depression 	0.70 (0.30) 	0.55 (0.16) 	1.92 	.06
+Open in a new tab
+
+Questionnaire scores between the two groups are compared (N per group = 19; from each originally recruited group (N = 22), three participants had to be excluded because their scores on the questionnaires did not match their original initial group assignment). Mean (standard deviation) are listed separately for the high fear and the low fear group, the reported t and p value are obtained from a 2-sample t-test. FSQ = Fear of Spider Questionnaire, FSS-II = Fear Survey Schedule—II, STAI = State Trait Anxiety Inventory, GHQ = General Health Questionnaire, HADS = Hospital Anxiety and Depression scale.
+
+We scanned 44 participants, 22 in the high fear group and 22 in the low fear group. Three participants from each group had to be excluded because their scores on the screening questionnaires at the time of scanning did not reflect their original group assignment (their score lay on the other side of the total median). One participant of the low fear group had to be excluded due to problems during the acquisition of the functional imaging data. The final sample consisted of 37 participants, 19 in the high fear group and 18 in the low fear group.
+
+Due to some evidence for an influence of the menstrual cycle on GABA levels [31,32], participants were asked to come for the imaging study during the first 9 days of their cycle; during this period the probability of being in the follicular phase—during which steroid hormone levels are most stable—is 95% [33]. Three participants did not comply with these instructions: one participant in the low fear group came on day 10, and two participants in the high fear group came on day 12 and day 14, respectively. Participants who were taking hormonal contraception (11 in the high fear and 11 in the low fear group) were asked to come for the scanning session outside their pill-free period, if applicable. The study was approved by the Cardiff University School of Psychology Ethics Committee and written informed consent was obtained from all participants. Participants were financially compensated for their time.
+2.2. Fear inducing paradigm
+
+The fear inducing paradigm involved presenting still pictures of spiders, of other control animals (birds, caterpillars, snails and lizards), generally negative pictures taken from the International Affective Picture System (IAPS, [34]) and neutral pictures also obtained from the IAPS. This allowed us to produce a fear-specific contrast SPIDERS > ANIMALS and a fear-unspecific contrast IAPSnegative > IAPSneutral. The images were presented in short blocks of 10 seconds, with 4 images (presented for 2.5 sec.) each. After half of the blocks a fixation cross appeared for either 7, 9, 11 or 13 seconds (there were no blocks of the same kind one after the other without a fixation period in between). For each condition, 10 blocks were presented (for more detail see S1 File).
+
+In order to guarantee that participants were processing the images presented and not avoiding the more unpleasant pictures, they were instructed to perform a covert task of responding (button press with right index and middle finger) whether they could detect the presence of a human in the picture (50% of the pictures). The tasks were presented in the scanner using Presentation (Neurobehavioral Systems, Albany, CA) and rear-projected onto a screen behind the participant's head that was visible through a mirror mounted on the RF head coil. After scanning, participants were asked to rate the pictures using a 1 (very negative) to 9 (very positive) scale based on Lang et al’s [34] pleasure dimension of the Self-Assessment-Manikin scale [35].
+2.3. Imaging protocol
+
+All data were acquired using a 3T GE HDx MRI System, using a body transmit RF coil and an eight channel receive-only head coil.
+2.3.1. Structural scans
+
+A T1 weighted whole-brain structural scan was acquired for purposes of image and MRS voxel registration (3D fast, spoiled gradient echo, TR/TE = 7.9/3.0 ms, TI = 450 ms, Flip angle = 20 deg, 1 x 1 x 1 mm resolution, 256 x 256 x 176 matrix size).
+2.3.2. Functional scan: fear inducing paradigm
+
+During task performance, gradient-echo echo-planar T2* images of the entire brain. Forty-six interleaved 2 mm (1 mm gap) AC-PC parallel slices were obtained per volume (204 volumes) with a TR = 3 s, TE = 35 ms, matrix = 64 x 64, FOV = 220 mm, flip angle = 90o.

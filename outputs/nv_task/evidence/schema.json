@@ -1,0 +1,232 @@
+{
+    "$defs": {
+        "TaskMetadataModel": {
+            "description": "Metadata for task-based fMRI studies ",
+            "properties": {
+                "TaskName": {
+                    "description": "Name of the task, e.g., 'Stroop Task' or 'Go/No-Go Task'. Provide the name as it appears in the paper or a descriptive name if unspecified.",
+                    "title": "Taskname",
+                    "type": "string"
+                },
+                "TaskDescription": {
+                    "description": "In 1-2 sentences, describe the key features of the task, such as its purpose or what it measures.",
+                    "title": "Taskdescription",
+                    "type": "string"
+                },
+                "DesignDetails": {
+                    "description": "Provide a detailed description of the task design in up to 1 paragraph. Include \n        information on the number of conditions, the number of trials per condition, the length of trials, \n        and the length of inter-trial intervals. Quote directly from the paper where possible.",
+                    "title": "Designdetails",
+                    "type": "string"
+                },
+                "Conditions": {
+                    "anyOf": [
+                        {
+                            "items": {
+                                "type": "string"
+                            },
+                            "type": "array"
+                        },
+                        {
+                            "type": "null"
+                        }
+                    ],
+                    "description": "Conditions of task performed by the subjects.",
+                    "title": "Conditions"
+                },
+                "TaskMetrics": {
+                    "anyOf": [
+                        {
+                            "items": {
+                                "type": "string"
+                            },
+                            "type": "array"
+                        },
+                        {
+                            "type": "null"
+                        }
+                    ],
+                    "description": "Key metrics or outcomes measured during the task, e.g., 'response time', 'accuracy', 'fMRI BOLD signal'.",
+                    "title": "Taskmetrics"
+                }
+            },
+            "required": [
+                "TaskName",
+                "TaskDescription",
+                "DesignDetails",
+                "Conditions",
+                "TaskMetrics"
+            ],
+            "title": "TaskMetadataModel",
+            "type": "object"
+        },
+        "fMRITaskMetadataModel": {
+            "description": "Metadata for task-based fMRI studies ",
+            "properties": {
+                "TaskName": {
+                    "description": "Name of the task, e.g., 'Stroop Task' or 'Go/No-Go Task'. Provide the name as it appears in the paper or a descriptive name if unspecified.",
+                    "title": "Taskname",
+                    "type": "string"
+                },
+                "TaskDescription": {
+                    "description": "In 1-2 sentences, describe the key features of the task, such as its purpose or what it measures.",
+                    "title": "Taskdescription",
+                    "type": "string"
+                },
+                "DesignDetails": {
+                    "description": "Provide a detailed description of the task design in up to 1 paragraph. Include \n        information on the number of conditions, the number of trials per condition, the length of trials, \n        and the length of inter-trial intervals. Quote directly from the paper where possible.",
+                    "title": "Designdetails",
+                    "type": "string"
+                },
+                "Conditions": {
+                    "anyOf": [
+                        {
+                            "items": {
+                                "type": "string"
+                            },
+                            "type": "array"
+                        },
+                        {
+                            "type": "null"
+                        }
+                    ],
+                    "description": "Conditions of task performed by the subjects.",
+                    "title": "Conditions"
+                },
+                "TaskMetrics": {
+                    "anyOf": [
+                        {
+                            "items": {
+                                "type": "string"
+                            },
+                            "type": "array"
+                        },
+                        {
+                            "type": "null"
+                        }
+                    ],
+                    "description": "Key metrics or outcomes measured during the task, e.g., 'response time', 'accuracy', 'fMRI BOLD signal'.",
+                    "title": "Taskmetrics"
+                },
+                "RestingState": {
+                    "description": "Was this task a resting state task?",
+                    "title": "Restingstate",
+                    "type": "boolean"
+                },
+                "TaskDesign": {
+                    "description": "Design(s) of the task",
+                    "items": {
+                        "enum": [
+                            "Blocked",
+                            "EventRelated",
+                            "Mixed",
+                            "Other"
+                        ],
+                        "type": "string"
+                    },
+                    "title": "Taskdesign",
+                    "type": "array"
+                },
+                "TaskDuration": {
+                    "anyOf": [
+                        {
+                            "type": "string"
+                        },
+                        {
+                            "type": "null"
+                        }
+                    ],
+                    "description": "Total duration of the task, e.g., '10 minutes' or '600 seconds'.",
+                    "title": "Taskduration"
+                }
+            },
+            "required": [
+                "TaskName",
+                "TaskDescription",
+                "DesignDetails",
+                "Conditions",
+                "TaskMetrics",
+                "RestingState",
+                "TaskDesign",
+                "TaskDuration"
+            ],
+            "title": "fMRITaskMetadataModel",
+            "type": "object"
+        }
+    },
+    "description": "Metadata for the study as a whole ",
+    "properties": {
+        "Modality": {
+            "description": "Modality of the neuroimaging data",
+            "items": {
+                "enum": [
+                    "fMRI-BOLD",
+                    "StructuralMRI",
+                    "DiffusionMRI",
+                    "PET FDG",
+                    "PET [15O]-water",
+                    "fMRI-CBF",
+                    "fMRI-CBV",
+                    "MEG",
+                    "EEG",
+                    "Other"
+                ],
+                "type": "string"
+            },
+            "title": "Modality",
+            "type": "array"
+        },
+        "StudyObjective": {
+            "anyOf": [
+                {
+                    "type": "string"
+                },
+                {
+                    "type": "null"
+                }
+            ],
+            "description": "A brief summary of the primary research question or objective of the study.",
+            "title": "Studyobjective"
+        },
+        "Exclude": {
+            "anyOf": [
+                {
+                    "enum": [
+                        "MetaAnalysis",
+                        "Review"
+                    ],
+                    "type": "string"
+                },
+                {
+                    "type": "null"
+                }
+            ],
+            "description": "Only studies that conduct primary data collection are to be be included. Thus, if a study is primarily either a meta-analysis or a review, note here.",
+            "title": "Exclude"
+        },
+        "fMRITasks": {
+            "description": "List of fMRI tasks performed by the subjects inside the scanner and their metadata. If the study did not include fMRI tasks, leave this field empty.",
+            "items": {
+                "$ref": "#/$defs/fMRITaskMetadataModel"
+            },
+            "title": "Fmritasks",
+            "type": "array"
+        },
+        "BehavioralTasks": {
+            "description": "List of behavioral tasks performed by the subjects outside the scanner and their metadata. If the study did not include behavioral tasks, leave this field empty.",
+            "items": {
+                "$ref": "#/$defs/TaskMetadataModel"
+            },
+            "title": "Behavioraltasks",
+            "type": "array"
+        }
+    },
+    "required": [
+        "Modality",
+        "StudyObjective",
+        "Exclude",
+        "fMRITasks",
+        "BehavioralTasks"
+    ],
+    "title": "StudyMetadataModel",
+    "type": "object"
+}
