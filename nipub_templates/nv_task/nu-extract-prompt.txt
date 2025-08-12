@@ -1,0 +1,36 @@
+### Template:
+{
+    "Modality": "",
+    "StudyObjective": "",
+    "fMRITasks": [
+        {
+            "TaskName": "",
+            "TaskDescription": "",
+            "DesignDetails": "",
+            "Conditions": [""],
+            "TaskMetrics": [""],
+            "RestingState": "",
+            "RestingStateMetadata": "",
+            "TaskDesign": "",
+            "TaskDuration": ""
+        },
+    "BehavioralTasks": [
+        {
+            "TaskName": "",
+            "TaskDescription": "",
+            "DesignDetails": "",
+            "Conditions": [""],
+            "TaskMetrics": [""]
+        }
+    ]
+}
+
+## Example
+
+{
+    "Modality": "fMRI-BOLD",
+    "
+}
+
+## Text:
+
