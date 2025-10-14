@@ -62,7 +62,7 @@ def _run(extraction_model, extraction_client, csv_path, prepend='', batch_size=1
 
 # Define your models
 models = [
-    ("gpt-4o-mini", openai_client, {"temperature": 1}),
+    ("gpt--mini", openai_client, {"temperature": 1}),
     # ("anthropic/claude-3.5-sonnet", openrouter_client),
     # ("gpt-4o-2024-05-13", openai_client)
 ]
