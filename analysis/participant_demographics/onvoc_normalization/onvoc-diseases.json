@@ -1,0 +1,77 @@
+{
+  "Medical Disorders": [
+    "Anemia",
+    "Asthma",
+    "Cancer",
+    "Chronic Kidney Disease",
+    "Chronic Obstructive Pulmonary Disease",
+    "Coronary Artery Disease",
+    "Gastroesophageal Reflux Disease",
+    "Hyperlipidemia",
+    "Hypertension",
+    "Hypothyroidism",
+    "Obesity",
+    "Osteoarthritis",
+    "Type 2 Diabetes Mellitus"
+  ],
+  "Neurological Disorders": [
+    "Alzheimer's Disease",
+    "Carpal Tunnel Syndrome",
+    "Down Syndrome",
+    "Dyslexia",
+    "Epilepsy",
+    "Fibromyalgia",
+    "Fragile X Syndrome",
+    "Headache",
+    "Hyperalgesia",
+    "Migraine",
+    "Multiple Sclerosis",
+    "Neuropathic Pain",
+    "Parkinson's Disease",
+    "Peripheral Neuropathy",
+    "Prosopagnosia",
+    "Sciatica",
+    "Stroke"
+  ],
+  "Psychiatric Disorders": [
+    "Affective Psychotic Disorder",
+    "Anxiety Disorders",
+    "Attention-Deficit Hyperactivity Disorder",
+    "Autism Spectrum Disorder",
+    "Bipolar Disorder",
+    "Borderline Personality Disorder",
+    "Developmental Disorder",
+    "Eating Disorders",
+    "Major Depressive Disorder",
+    "Obsessive-Compulsive Disorder",
+    "Panic Disorder",
+    "Personality Disorders",
+    "Phobia",
+    "Post-Traumatic Stress Disorder",
+    "Psychotic Disorder",
+    "Schizophrenia",
+    "Substance Use Disorders"
+  ],
+  "Behaviors": [
+    "Alcoholism",
+    "Drug Use",
+    "Self-Harm"
+  ],
+  "Handedness": [
+    "Ambidextrous",
+    "Left handed",
+    "Right handed"
+  ],
+  "Perception": [
+    "Hearing Loss",
+    "Impaired Vision",
+    "Normal Hearing",
+    "Normal Vision"
+  ],
+  "Physiological Phenomena": [
+    "Abnormal Physiological Condition",
+    "Brain Injury",
+    "Head Injury",
+    "Pregnancy"
+  ]
+}
