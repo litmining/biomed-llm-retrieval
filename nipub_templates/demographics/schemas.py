@@ -39,3 +39,30 @@ class GroupAssesmentType(GroupBase):
 
 class FewShot2Schema(BaseModel):
     groups: List[GroupAssesmentType]
+
+
+class InclusionExclusionCriteria(BaseModel):
+    """Schema for extracting verbatim inclusion and exclusion criteria from studies."""
+    
+    inclusion_criteria: str | None = Field(
+        description="The VERBATIM text describing inclusion criteria for participant selection. "
+        "Extract the exact text as written in the article. If no specific inclusion criteria are mentioned, return null.",
+        default=None
+    )
+    
+    exclusion_criteria: str | None = Field(
+        description="The VERBATIM text describing exclusion criteria for participant selection. "
+        "Extract the exact text as written in the article. If no specific exclusion criteria are mentioned, return null.",
+        default=None
+    )
+    
+    has_dedicated_section: bool = Field(
+        description="Indicates whether the article has a dedicated section explicitly outlining inclusion and exclusion criteria separately "
+        "(e.g., headers like 'Inclusion Criteria' or 'Exclusion Criteria'), or if the criteria are only mentioned in prose within the text.",
+        default=False
+    )
+    
+    criteria_location: str | None = Field(
+        description="Brief description of where the criteria were found (e.g., 'Methods - Participants section', 'dedicated subsection', 'embedded in participant description')",
+        default=None
+    )

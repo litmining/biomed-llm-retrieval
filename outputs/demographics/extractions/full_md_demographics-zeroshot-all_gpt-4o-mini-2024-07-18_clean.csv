@@ -1,0 +1,1206 @@
+count,diagnosis,group_name,subgroup_name,male_count,female_count,age_mean,age_median,age_minimum,age_maximum,age_range,imaging_sample,age_mean_female,age_median_female,age_minimum_female,age_maximum_female,pmcid
+25.0,healthy,healthy,healthy subjects,18.0,7.0,23.16,23.0,,,,,,,,,5924771
+8.0,null,patients,postnatal day 18,8.0,6.0,,,,,null,yes,,,,,6520292
+7.0,null,patients,postnatal day 5286,7.0,6.0,,,,,null,yes,,,,,6520292
+30.0,healthy,healthy,healthy adults,20.0,10.0,26.0,26.0,21.0,31.0,21-31,yes,,,,,10889874
+10749.0,autoimmune diseases,patients,SLE,5379.0,540.0,31.4,28.0,,,,,,,,,6713388
+10749.0,autoimmune diseases,patients,non-SLE autoimmune diseases,,,,,,,,,,,,,6713388
+11443.0,non-autoimmune diseases,patients,non-autoimmune diseases,,,,,,,,,,,,,6713388
+0.0,,healthy,null,,,,,,,,,,,,,5931657
+16.0,prostate cancer,patients,prostate tumor specimens,,,,,,,,yes,,,,,4103770
+32.0,clinically definite relapsing-remitting MS,patients,MS patients,0.0,32.0,,,,,,,,,,,2813302
+21.0,healthy,healthy,healthy controls,0.0,21.0,,,,,,,,,,,2813302
+30.0,recurrent UTI,patients,recurrent UTI,0.0,30.0,,,,,,yes,,,,,3655152
+10.0,controls,healthy,controls,0.0,10.0,,,,,,yes,,,,,3655152
+13.0,active TB,patients,T0,7.0,6.0,,,50.0,58.0,50-58,yes,,,,,2678250
+9.0,LTBI,healthy,LTBI,5.0,4.0,,,30.0,45.0,30-45,yes,,,,,2678250
+25.0,MDD,patients,MDD patients,,,,,,,,,,,,,9001100
+24.0,Healthy Controls,healthy,HCs,,,,,,,,,,,,,9001100
+0.0,chronic pain,patients,chronic pain patients,,,,,,,,,,,,,9513358
+0.0,healthy,healthy,healthy participants,,,,,,,,,,,,,9513358
+110.0,"moderate-to-severe, treatment-resistant depression",patients,treatment-seeking adults,,,,,,,,yes,,,,,8410762
+21.0,MDD,patients,"first episode, short duration, untreated",13.0,8.0,,,18.0,56.0,,,,,,,5661170
+25.0,healthy,healthy,"matched for age, gender, and education years",,,,,,,,,,,,,5661170
+19.0,schizophrenia or schizoaffective disorder,patients,raloxifene trial,,,35.0,,,,null,yes,,,,,4781892
+977.0,null,patients,children,525.0,452.0,38.8,38.0,32.0,37.0,32-37,,,,,,8978891
+1199.0,null,patients,adults,131.0,1068.0,27.0,,,,null,,,,,,8978891
+20.0,Parkinson's Disease,patients,PD,,,,,,,,yes,,,,,6292599
+20.0,Healthy Controls,healthy,HC,,,,,,,,yes,,,,,6292599
+3.0,null,patients,Macaca mulatta,3.0,0.0,,,,,null,,,,,,4244037
+285.0,HGG and LGG,patients,HGG,,,,,,,,,,,,,10796062
+285.0,HGG and LGG,patients,LGG,,,,,,,,,,,,,10796062
+4.0,CJD,patients,CJD patients,,,,,,,,,,,,,4395093
+4.0,AD,patients,AD patients,,,,,,,,,,,,,4395093
+4.0,CJD,controls,age-matched controls,,,,,,,,,,,,,4395093
+4.0,AD,controls,age-matched controls,,,,,,,,,,,,,4395093
+65.0,osteoporosis,patients,osteoporotic,0.0,65.0,,,,,,yes,,,,,10584188
+61.0,normal-BMD,patients,normal-BMD,0.0,61.0,,,,,,yes,,,,,10584188
+11.0,null,patients,hawksbill turtles,0.0,11.0,,,,,,,,,,,7886132
+11.0,null,patients,loggerhead turtles,1.0,10.0,,,,,,,,,,,7886132
+1.0,null,patients,green turtle,1.0,0.0,,,,,,,,,,,7886132
+539.0,Diabetes Mellitus,patients,Newly diagnosed DM patients,301.0,238.0,46.05,,15.0,120.0,15-120,yes,,,,,9560537
+970.0,HIV-positive,patients,Black women,0.0,970.0,,,,,,,,,,,5714351
+288.0,HIV-negative,patients,Black women,0.0,288.0,,,,,,,,,,,5714351
+6.0,control,healthy,female-control,0.0,6.0,,,,,,yes,,,,,3313971
+6.0,cafeteria,patients,female-cafeteria,0.0,6.0,,,,,,yes,,,,,3313971
+6.0,control,healthy,male-control,6.0,0.0,,,,,,yes,,,,,3313971
+6.0,cafeteria,patients,male-cafeteria,6.0,0.0,,,,,,yes,,,,,3313971
+646.0,null,patients,young adults,283.0,363.0,20.08,20.0,16.0,24.0,16-24,,,,,,9942989
+7.0,EIH,patients,endurance-trained athletes,7.0,0.0,,,,,,,,,,,5008680
+8.0,non-EIH,patients,endurance-trained athletes,8.0,0.0,,,,,,,,,,,5008680
+8.0,none,healthy,untrained,,,,,,,,,,,,,5008680
+5.0,DSS treatment,patients,FVB-N mice,3.0,2.0,,,,,,,,,,,3411826
+2.0,DSS treatment,patients,C57BL6 procollagen 1(I)-GFP reporter mice,2.0,0.0,,,,,,,,,,,3411826
+25.0,sporadic PTC,patients,Japanese PTCs,4.0,21.0,53.3,,18.0,81.0,18-81,yes,,,,,3340412
+20.0,current car drivers,patients,current drivers,,,68.0,68.0,60.0,79.0,60-79,yes,,,,,7228106
+2.0,former car drivers,patients,former drivers,0.0,2.0,,,,,,yes,,,,,7228106
+5.0,SAP102 mutant,patients,SAP102,3.0,2.0,,,,,,,,,,,2110885
+5.0,wild-type,healthy,SAP102,3.0,2.0,,,,,,,,,,,2110885
+4.0,SAP102 mutant,patients,C57BL/6j,2.0,2.0,,,,,,,,,,,2110885
+5.0,PSD-95 mutant,patients,hippocampus,3.0,2.0,,,,,,,,,,,2110885
+4.0,wild-type,healthy,hippocampus,2.0,2.0,,,,,,,,,,,2110885
+2.0,PSD-95 mutant,patients,cortex,1.0,1.0,,,,,,,,,,,2110885
+2.0,wild-type,healthy,cortex,1.0,1.0,,,,,,,,,,,2110885
+194.0,null,healthy,female healthcare professionals,0.0,194.0,33.14,33.0,21.0,65.0,21-65,,,,,,11008815
+70.0,healthy,healthy,Condition 1Human Body Part,,,27.5,,18.0,61.0,18-61,yes,,,,,8292743
+70.0,healthy,healthy,Condition 2Animal Body Part,,,27.5,,18.0,61.0,18-61,yes,,,,,8292743
+43.0,chronic WAD,patients,chronic WAD,18.0,25.0,39.4,39.0,18.0,65.0,18-65,,,,,,5967697
+16.0,asymptomatic controls,healthy,asymptomatic controls,5.0,11.0,38.6,39.0,18.0,65.0,18-65,,,,,,5967697
+69.0,Alzheimer Disease,patients,AD,,,,,,,,,,,,,3720883
+62.0,Mild Cognitive Impairment,patients,MCI,,,,,,,,,,,,,3720883
+68.0,Cognitively Normal,healthy,NC,,,,,,,,,,,,,3720883
+9.0,"AN, BN, Other Specified Feeding or Eating Disorder",patients,Eating Disorder Patients,0.0,9.0,26.6,25.0,19.0,43.0,19-43,,,,,,7890966
+997.0,breast cancer,patients,discovery,,,,,,,,,,,,,4488510
+989.0,breast cancer,patients,validation,,,,,,,,,,,,,4488510
+1570.0,breast cancer,patients,ROCK,,,,,,,,,,,,,4488510
+6.0,null,patients,ADSCs,0.0,6.0,,,29.0,37.0,,,,,,,3789739
+7.0,ATTR-CA,patients,positive Tc-PYP,7.0,0.0,,,,,,,,,,,8270434
+0.0,,healthy,rBA,,,,,,,,,,,,,4954705
+16.0,healthy,healthy,participants,7.0,9.0,26.6,,20.0,38.0,20-38,yes,,,,,4989013
+36.0,null,patients,CB6F1 mice,18.0,18.0,20.0,20.0,20.0,20.0,20-20,yes,,,,,6043711
+105.0,tumors,patients,SCA,,,,,,,,,,,,,4664485
+59.0,no tumors,healthy,SCI,,,,,,,,,,,,,4664485
+89.0,no tumors,healthy,SNI,,,,,,,,,,,,,4664485
+9.0,experimental,patients,C57BL/6 WT mice,9.0,0.0,31.0,31.0,31.0,31.0,31-31,,,,,,6169940
+0.0,null,patients,null,0.0,0.0,,,,,,,,,,,6016802
+166.0,not specified,patients,not specified,67.0,99.0,66.5,,41.0,93.0,41-93,yes,,,,,8136703
+80.0,Alzheimers disease,patients,AD,,,,,,,,yes,,,,,9211045
+80.0,healthy controls,healthy,HC,,,,,,,,yes,,,,,9211045
+269999.0,medical and surgical admissions,patients,Churpek et al.,,,60.0,,,,null,yes,,,,,6333367
+44531.0,medical admissions,patients,Kellett et al.,,,67.5,,,,null,yes,,,,,6333367
+2.0,BRAF mutant melanoma,patients,M397,,,,,,,,yes,,,,,6576794
+2.0,BRAF mutant melanoma,patients,M229,,,,,,,,yes,,,,,6576794
+30.0,healthy,healthy,controls,,,,,,,,yes,,,,,9421442
+30.0,neurologically healthy,healthy,volunteers,13.0,17.0,24.72,24.0,21.0,30.0,,yes,,,,,6131631
+41.0,null,healthy,trainee teachers,5.0,36.0,23.27,,18.0,35.0,18-35,no,,,,,6594637
+12.0,5xFAD,patients,5xFAD Training group,,,,,,,,,,,,,10556575
+14.0,WT,healthy,WT Training group,,,,,,,,,,,,,10556575
+0.0,null,patients,null,0.0,0.0,,,,,,,,,,,3698143
+0.0,null,healthy,null,0.0,0.0,,,,,,,,,,,3698143
+15.0,no known neurological or sensory impairments,healthy,participants,9.0,6.0,28.5,28.0,22.0,35.0,22-35,,,,,,10017858
+32.0,brain trauma and brain tumors,patients,acquired or congenital brain damage,19.0,13.0,,,,,,yes,,,,,6010294
+3.0,Rhizomelic Chondrodysplasia Punctata (RCDP) type 1,patients,Pex7 KO mice,2.0,1.0,,,,,,,,,,,3232224
+4.0,healthy,healthy,WT mice,2.0,2.0,,,,,,,,,,,3232224
+20.0,null,patients,post-abortion care clients,0.0,20.0,,,,,<20-39,no,,,,,8057598
+86.0,lymphoma,patients,all patients,57.0,29.0,58.4,,,,null,yes,,,,,9371255
+224.0,chronic pain,patients,ADAPT program,94.0,130.0,,,16.0,91.0,,,,,,,10578420
+35.0,healthy,healthy,healthy subjects,16.0,19.0,43.0,43.0,27.0,73.0,27-73,yes,,,,,4511822
+0.0,null,patients,LRRK2 (G2019S),,,,,,,null,no,,,,,5094768
+0.0,null,healthy,isogenic control,,,,,,,null,no,,,,,5094768
+0.0,null,patients,LRRK2 (G2019S) knock-in,,,,,,,null,no,,,,,5094768
+91.0,no cardiac shunts or malformations,patients,unknown shunts,56.0,35.0,52.0,52.0,39.0,62.0,39-62,,,,,,7081189
+10.0,known cardiac shunt,patients,known shunts,3.0,7.0,44.0,44.0,41.0,47.0,41-47,,,,,,7081189
+2971.0,normotensive to stage 2 HTN,patients,discovery population,,,,,,,,yes,,,,,3399862
+4620.0,normotensive to stage 2 HTN,patients,replication population,,,,,,,,yes,,,,,3399862
+1.0,Tylosaurus proriger,patients,FFHM 199710,,,,,,,,,,,,,4334958
+1.0,Platecarpus tympaniticus,patients,LACM 128319,,,,,,,,,,,,,4334958
+1.0,Platecarpus tympaniticus,patients,KU 1001,,,,,,,,,,,,,4334958
+1.0,Clidastes propython,patients,CFDC M74.10.06,,,,,,,,,,,,,4334958
+1.0,"Mosasaurus sp., cf. M. missouriensis",patients,TMP 2012.010.0001,,,,,,,,,,,,,4334958
+47.0,none,patients,children,18.0,29.0,,,3.0,10.0,3-10,yes,,,,,6969086
+40.0,none,healthy,college students,9.0,31.0,21.2,,18.0,23.0,18-23,yes,,,,,6969086
+885.0,PTSS,patients,RISK study participants,0.0,885.0,25.19,,18.0,34.0,18-34,yes,,,,,7577433
+31.0,healthy,healthy,adolescents,10.0,21.0,15.5,15.0,12.0,17.0,,yes,,,,,3242169
+13.0,DGF or kidney function deterioration,patients,Kidney transplant recipients,8.0,5.0,57.9,,,,unknown,yes,,,,,7237443
+59.0,cardiorespiratory admission diagnosis,patients,ICU patients,38.0,21.0,62.0,62.0,53.0,66.0,53-66,yes,,,,,10101425
+14.0,NAFLD or steatohepatitis,patients,LAR,14.0,0.0,,,,,,,,,,,6892561
+10.0,NAFLD or steatohepatitis,patients,FC,10.0,0.0,,,,,,,,,,,6892561
+257.0,probable AD,patients,AD,,,,,,,,,,,,,8044304
+71.0,minor neurological non-neurodegenerative disorders,patients,OND,,,,,,,,,,,,,8044304
+1752544.0,FQ-related AEs,patients,FQ-related AEs,88999.0,1663545.0,60.8,,,,,,,,,,6485715
+0.0,null,patients,Bloodstream form (BSF),,,,,,,null,,,,,,2997783
+0.0,null,patients,Procyclic form (PCF),,,,,,,null,,,,,,2997783
+26.0,null,patients,null,8.0,18.0,21.9,,,,null,,,,,,10076762
+71.0,tinnitus,patients,tinnitus patients,33.0,38.0,,,,,,,,,,,10111057
+14.0,healthy,healthy,healthy volunteers,,,,,,,,,,,,,10111057
+20.0,healthy,healthy,nocturnal sleep (NS) group,20.0,0.0,23.0,23.0,21.0,28.0,21-28,,,,,,10151529
+22.0,healthy,healthy,sleep deprivation (SD) group,22.0,0.0,23.0,23.0,21.0,28.0,21-28,,,,,,10151529
+21.0,Tourette syndrome,patients,TS with ADHD,17.0,4.0,10.5,10.0,7.0,15.0,7-15,,,,,,3497583
+19.0,nonsmokers,patients,nonsmokers,,,,,,,,,,,,,5347953
+19.0,weekly smokers,patients,weekly smokers,,,,,,,,,,,,,5347953
+20.0,daily smokers,patients,daily smokers,,,,,,,,,,,,,5347953
+21.0,none,patients,NpHR experimental group,21.0,0.0,,,3.0,4.0,3-4 months,yes,,,,,7481003
+22.0,none,patients,eYFP control group,22.0,0.0,,,3.0,4.0,3-4 months,yes,,,,,7481003
+56.0,healthy,healthy,social judgement,,,,,,,,,,,,,10532823
+17.0,healthy,healthy,moral judgement,,,,,,,,,,,,,10532823
+11.0,healthy,healthy,risk judgement,,,,,,,,,,,,,10532823
+8.0,healthy,healthy,interpersonal judgement,,,,,,,,,,,,,10532823
+24.0,none,patients,6-month-old NEP-knockout mice,24.0,0.0,6.0,6.0,6.0,6.0,6-6,yes,,,,,2643003
+12.0,none,patients,21-month-old NEP-knockout mice,12.0,0.0,21.0,21.0,21.0,21.0,21-21,yes,,,,,2643003
+12.0,none,patients,21-month-old wild-type mice,9.0,3.0,21.0,21.0,21.0,21.0,21-21,yes,,,,,2643003
+9.0,none,patients,21-month-old NEP-knockout mice,9.0,0.0,21.0,21.0,21.0,21.0,21-21,yes,,,,,2643003
+0.0,null,patients,MDCK cells,0.0,0.0,,,,,null,,,,,,2359857
+163.0,null,healthy,Singapore,46.0,117.0,21.9,,,,null,yes,,,,,8428676
+163.0,null,healthy,U.S.,45.0,118.0,21.49,,,,null,yes,,,,,8428676
+0.0,null,healthy,V-East,,,,,,,null,,,,,,6776359
+0.0,null,healthy,V-West,,,,,,,null,,,,,,6776359
+0.0,null,healthy,CV,,,,,,,null,,,,,,6776359
+0.0,null,healthy,UV,,,,,,,null,,,,,,6776359
+0.0,,healthy,SLFN11-WT,,,,,,,,,,,,,8017720
+0.0,,healthy,SLFN11-KO,,,,,,,,,,,,,8017720
+67.0,none,healthy,LdLp,,,,,,,,yes,,,,,2972212
+67.0,none,healthy,OdLp,,,,,,,,yes,,,,,2972212
+67.0,none,healthy,LdOp,,,,,,,,yes,,,,,2972212
+67.0,none,healthy,OdOp,,,,,,,,yes,,,,,2972212
+85.0,FHR-SZ,patients,FHR-SZ,41.0,44.0,,,,,,,,,,,11059809
+63.0,FHR-BP,patients,FHR-BP,30.0,33.0,,,,,,,,,,,11059809
+98.0,PBC,healthy,PBC,49.0,49.0,,,,,,,,,,,11059809
+340.0,null,patients,US residents,190.0,150.0,35.41,,18.0,74.0,18-74,yes,,,,,5469794
+1.0,healthy,healthy,adult healthy men,10.0,0.0,,25.0,20.0,30.0,20-30,yes,,,,,7116965
+12.0,non-diabetic control,healthy,non-diabetic control group,12.0,0.0,,,,,8 weeks,yes,,,,,4408020
+12.0,non-diabetic control,healthy,non-diabetic control group (K+RSV),12.0,0.0,,,,,8 weeks,yes,,,,,4408020
+12.0,diabetic,patients,diabetic group,12.0,0.0,,,,,8 weeks,yes,,,,,4408020
+9.0,diabetic,patients,diabetic group treated with resveratrol (D+RSV),9.0,0.0,,,,,8 weeks,yes,,,,,4408020
+2.0,null,patients,Monkey K,1.0,1.0,,,,,,,,,,,3528341
+2.0,null,patients,Monkey S,1.0,1.0,,,,,,,,,,,3528341
+16.0,healthy,patients,6-month-olds,11.0,5.0,6.0,6.0,6.0,6.0,6-6,,,,,,3930744
+16.0,healthy,patients,12-month-olds,7.0,9.0,12.0,12.0,12.0,12.0,12-12,,,,,,3930744
+16.0,healthy,patients,12-month-olds Experiment 2,8.0,8.0,12.0,12.0,12.0,12.0,12-12,,,,,,3930744
+30.0,StD,patients,StD subjects,19.0,11.0,,,,,,,,,,,10113366
+61.0,HCs,healthy,healthy controls,32.0,29.0,,,,,,,,,,,10113366
+6.0,hypertensive cardiac disease,patients,Smad7 KO mice,6.0,0.0,,,8.0,10.0,8-10 weeks,yes,,,,,3720917
+10.0,null,patients,CLCF1-ATG,10.0,0.0,8.0,8.0,8.0,8.0,8-8,yes,,,,,10433725
+335.0,mumps,patients,mumps outbreak,225.0,110.0,21.6,,4.0,58.0,4-58,no,,,,,4619890
+157.0,DILI,patients,DILI cases,96.0,61.0,46.0,46.0,19.0,91.0,19-91,yes,,,,,10231779
+634.0,No DILI,patients,controls,362.0,272.0,37.0,37.0,0.0,93.0,0-93,yes,,,,,10231779
+100.0,null,patients,male SpragueDawely rats,100.0,0.0,,,,,null,,,,,,6093657
+11332.0,ASD symptoms,patients,Class 1,5776.0,5522.0,18.55,18.0,18.0,19.0,,yes,,,,,3536994
+11332.0,ASD symptoms,patients,Class 2,5776.0,5522.0,18.55,18.0,18.0,19.0,,yes,,,,,3536994
+11332.0,ASD symptoms,patients,Class 3,5776.0,5522.0,18.55,18.0,18.0,19.0,,yes,,,,,3536994
+11332.0,ASD symptoms,patients,Class 4,5776.0,5522.0,18.55,18.0,18.0,19.0,,yes,,,,,3536994
+100.0,AS,patients,first stage,79.0,21.0,29.5,29.0,21.0,45.0,21-45,,,,,,5426703
+100.0,healthy,healthy,first stage,80.0,20.0,29.91,29.0,20.0,40.0,20-40,,,,,,5426703
+620.0,AS,patients,second stage,515.0,105.0,28.28,28.0,18.0,50.0,18-50,,,,,,5426703
+620.0,healthy,healthy,second stage,512.0,108.0,27.83,27.0,19.0,45.0,19-45,,,,,,5426703
+11.0,cancer septic,patients,cancer,,,,,,,,,,,,,5770055
+11.0,previously healthy septic,healthy,healthy,,,,,,,,,,,,,5770055
+6.0,hepatotoxicity,patients,nimesulide treated,6.0,0.0,,,12.0,18.0,12-18,yes,,,,,3317927
+30.0,healthy,healthy,young adults,8.0,22.0,23.9,23.0,16.0,40.0,16-40,,,,,,8963905
+11408.0,malaria,patients,neonates,5974.0,5434.0,,,,,,yes,,,,,6988973
+0.0,null,patients,null,,,,,,,,,,,,,11101039
+43.0,null,patients,experts,,,,,,,,,,,,,9889848
+36.0,severe renal dysfunction,patients,se-RD,26.0,10.0,60.9,60.0,,,,,,,,,9427930
+85.0,moderate renal dysfunction,patients,mo-RD,57.0,28.0,62.3,62.0,,,,,,,,,9427930
+45.0,control group,healthy,CG,19.0,26.0,43.7,43.0,,,,,,,,,9427930
+8.0,null,patients,ponies,5.0,3.0,14.0,14.0,14.0,15.0,14-2.8,,,,,,6025858
+64.0,null,healthy,psychology students,12.0,52.0,18.69,18.0,18.0,26.0,18-26,,,,,,4503786
+64.0,null,patients,null,,,,,,,,,,,,,4503786
+45.0,naive participants,healthy,participants,27.0,18.0,25.0,25.0,18.0,32.0,18-32,,,,,,10614914
+149.0,healthy,healthy,overall,62.0,87.0,23.0,19.0,17.0,63.0,17-63,yes,,,,,5120109
+53.0,spastic type of CP,patients,BTX-A treatment,,,,,,,,yes,,,,,4816309
+58.0,PLWHIV,patients,PLWHIV_1,,,,,,,,yes,,,,,7561185
+58.0,PLWHIV,patients,PLWHIV_2,,,,,,,,yes,,,,,7561185
+58.0,PLWHIV,patients,PLWHIV_3,,,,,,,,yes,,,,,7561185
+13.0,Cerebral Palsy,patients,spastic diplegic,8.0,5.0,15.53,15.0,,,,,,,,,5440753
+15.0,Typically Developing,healthy,typically developing,8.0,7.0,14.13,14.0,,,,,,,,,5440753
+184.0,cognitively normal,healthy,whole sample,,,,,,,,yes,,,,,5710531
+15.0,Fibromyalgia,patients,FM,1.0,14.0,,45.0,,,null,,,,,,11140151
+18.0,Healthy controls,healthy,CTRL,1.0,17.0,,38.0,,,null,,,,,,11140151
+15.0,ADHD,patients,spinal manipulation first,,,,,,,,yes,,,,,8394036
+15.0,ADHD,patients,control first,,,,,,,,yes,,,,,8394036
+0.0,,healthy,C. sapidus,0.0,0.0,,,,,,,,,,,4388526
+82.0,non-obese,patients,non-obese,,,40.44,,19.0,30.0,19.5-30,yes,,,,,5338794
+62.0,obese,patients,obese,,,47.19,,30.0,40.0,30-40,yes,,,,,5338794
+34.0,Type 2 diabetes mellitus (T2DM),patients,T2DM patients,,,,,,,,,,,,,7303156
+88.0,healthy,healthy,healthy controls,,,,,,,,,,,,,7303156
+195.0,COVID-19 viral pneumonia,patients,Montreal-COVID-19 CXR dataset,131.0,64.0,,,,,,,,,,,7660555
+134.0,COVID-19 viral pneumonia,patients,Twitter-COVID-19 CXR dataset,,,,,,,,,,,,,7660555
+16.0,T1D,patients,Std-GCC,8.0,8.0,,,,,,,,,,,3827256
+19.0,T1D,patients,C-GFC,8.0,11.0,,,,,,,,,,,3827256
+19.0,T1D,patients,EW-GFC,9.0,10.0,,,,,,,,,,,3827256
+23.0,T1D,patients,GS-GFC,,,,,,,,,,,,,3827256
+6.0,brachial plexus avulsion,patients,patients with brachial plexus avulsion,5.0,1.0,,,26.0,47.0,,,,,,,6305497
+12.0,healthy,healthy,healthy controls,,,,,,,,,,,,,6305497
+158.0,TPE,patients,TPE,,,45.0,,,,<40-<40,yes,,,,,8202948
+400.0,mild-to-moderate AD,patients,DHA trial,188.0,212.0,75.6,,,,null,yes,,,,,3031880
+12.0,null,patients,ORG,6.0,6.0,,,,,null,,,,,,6957345
+1618.0,null,patients,young men,1618.0,0.0,,,15.0,24.0,15-24,yes,,,,,7853509
+2574.0,null,patients,young women,0.0,2574.0,,,15.0,24.0,15-24,yes,,,,,7853509
+1702.0,null,patients,young men,1702.0,0.0,,,15.0,24.0,15-24,yes,,,,,7853509
+2461.0,null,patients,young women,0.0,2461.0,,,15.0,24.0,15-24,yes,,,,,7853509
+671.0,null,patients,young men,671.0,0.0,,,15.0,24.0,15-24,yes,,,,,7853509
+2321.0,null,patients,young women,0.0,2321.0,,,15.0,24.0,15-24,yes,,,,,7853509
+166.0,severe AECOPD,patients,pre-pandemic,,,,,,,,,,,,,10501653
+174.0,severe AECOPD,patients,pandemic,,,,,,,,,,,,,10501653
+87.0,severe AECOPD,patients,pre-vaccination,,,,,,,,,,,,,10501653
+152.0,knee osteoarthritis,patients,working TKA patients,,,55.0,,28.0,63.0,28-63,yes,,,,,5571908
+523.0,knee osteoarthritis,patients,retired TKA patients,,,74.0,,65.0,91.0,65-91,yes,,,,,5571908
+716.0,Meniere's disease,patients,unilateral and bilateral MD,,,,,,,,yes,,,,,4232390
+17.0,family history of major depression,patients,FH,3.0,14.0,17.6,17.0,16.0,20.0,16-20,,,,,,2890050
+15.0,no history of major depression,healthy,HC,4.0,11.0,18.9,19.0,17.0,21.0,17-21,,,,,,2890050
+12.0,AP,patients,"AP, probiotics",,,,,,,,,,,,,2639703
+12.0,AP,patients,"AP, placebo",,,,,,,,,,,,,2639703
+12.0,sham-procedure,patients,sham,,,,,,,,,,,,,2639703
+5.0,non-operated controls,patients,control,,,,,,,,,,,,,2639703
+64.0,nonkeratinizing undifferentiated NPC,patients,pre-RT,51.0,13.0,46.0,,22.0,63.0,22-63,yes,,,,,5357686
+22.0,nonkeratinizing undifferentiated NPC,patients,post-RT-ED,,,,,,,,yes,,,,,5357686
+20.0,nonkeratinizing undifferentiated NPC,patients,post-RT-LD,,,,,,,,yes,,,,,5357686
+300.0,Tuberculosis (TB),patients,MDR-TB,196.0,104.0,30.0,30.0,15.0,85.0,15-85,yes,,,,,7428183
+24.0,null,healthy,participants,11.0,13.0,27.3,27.0,24.0,30.0,24-30,yes,,,,,6602963
+0.0,null,patients,DA neurons,,,,,,,null,yes,,,,,3530538
+959.0,none,healthy,overall,351.0,606.0,68.34,68.0,50.0,93.0,50-93,,,,,,7449056
+436.0,none,healthy,CBS participants,163.0,272.0,67.14,67.0,50.0,90.0,50-90,,,,,,7449056
+17.0,rectal cancer,patients,rectal cancer patients,16.0,1.0,68.65,71.0,51.0,76.0,,,,,,,5400638
+39.0,control,patients,Ahi1+/+,39.0,0.0,9.0,9.0,9.0,9.0,9-9,yes,,,,,6028478
+34.0,CUS,patients,Ahi1+/,34.0,0.0,9.0,9.0,9.0,9.0,9-9,yes,,,,,6028478
+28.0,glioma,patients,recurrent tumors,,,,,,,,,,,,,7527584
+28.0,glioma,patients,newly diagnosed tumors,,,,,,,,,,,,,7527584
+59.0,null,healthy,rice genotypes,,,,,,,null,no,,,,,5983461
+57.0,healthy,healthy,healthy volunteers,,,,,,,,yes,,,,,4226573
+133.0,cardiovascular disease,patients,cardiovascular disease subjects,105.0,85.0,,,18.0,75.0,18-75,yes,,,,,4226573
+21.0,healthy,healthy,participants,2.0,19.0,,,,,,yes,,,,,6854468
+62.0,null,patients,Hispanic children,29.0,33.0,8.7,8.0,7.0,10.0,7-10,,,,,,7714231
+323.0,Bullied,patients,Bullied,198.0,125.0,9.88,10.0,9.0,10.0,9-10,yes,,,,,10163612
+322.0,Non-bullied,healthy,Non-bullied,171.0,132.0,9.84,10.0,9.0,10.0,9-10,yes,,,,,10163612
+1919.0,none,patients,police intervention,,,,,,,,yes,,,,,10931527
+2.0,null,patients,Rhesus macaque monkeys,2.0,0.0,,,,,null,yes,,,,,9882082
+16.0,"schizophrenia, anorexia nervosa, attention deficit hyperactivity disorder, mood disorder",patients,patients with psychiatric disorders,,,,,11.0,41.0,11-41,yes,,,,,8886766
+1511.0,NDMM-TI,patients,1LOT,,,71.3,,,,null,yes,,,,,8153459
+50.0,healthy,healthy,young adults,25.0,25.0,22.0,22.0,18.0,30.0,18-30,yes,,,,,4172636
+30.0,patients,patients,older adults,15.0,15.0,65.0,65.0,60.0,75.0,60-75,yes,,,,,4172636
+240.0,undiagnosed pleural effusions,patients,MPM,,,,,,,,yes,,,,,5624636
+0.0,null,patients,null,0.0,0.0,,,,,,,,,,,3812127
+118.0,tuberculosis treatment dropout,patients,dropout cases,,,,,,,,yes,,,,,6133354
+360.0,tuberculosis cure,patients,controls,,,40.6,,,,unknown,yes,,,,,6133354
+34.0,none,patients,contact athletes,34.0,0.0,14.7,14.0,10.0,18.0,10-18,,,,,,10666028
+23.0,none,patients,non-contact athletes,0.0,23.0,,,,,,,,,,,10666028
+4900.0,chemotherapy,patients,newer antiemetic agents,,,,,,,,,,,,,2912767
+19000.0,chronic heart failure,patients,ACE-inhibitors,,,,,,,,,,,,,2912767
+3500.0,major depressive disorder,patients,second-generation antidepressants,,,,,,,,,,,,,2912767
+12.0,,healthy,mice,,,,,,,,,,,,,9250522
+6.0,,healthy,mice,,,,,,,,,,,,,9250522
+0.0,,healthy,RPE-1 cells,,,,,,,,,,,,,2586089
+0.0,,healthy,U2OS cells,,,,,,,,,,,,,2586089
+43.0,chronic low-back pain (CLBP),patients,CLBP,17.0,26.0,,,,,,yes,,,,,8830732
+51.0,subacute back pain (SBP),patients,SBP,31.0,20.0,,,,,,yes,,,,,8830732
+36.0,healthy controls,healthy,HC,20.0,16.0,,,,,,yes,,,,,8830732
+0.0,null,patients,Iso-2.1,,,,,,,null,no,,,,,2866655
+0.0,null,patients,Iso-3.1,,,,,,,null,no,,,,,2866655
+41.0,Parkinsons disease,patients,overall,25.0,16.0,61.7,61.0,54.0,69.0,54-69,,,,,,5766081
+11.0,advanced pancreatic cancer,patients,Group A,,,,,,,,,,,,,5242484
+10.0,advanced pancreatic cancer,patients,Group B,,,,,,,,,,,,,5242484
+54.0,Graves disease,patients,Graves disease patients,,,,,,,,yes,,,,,5886569
+47.0,nonfunctional adrenal tumors,healthy,control participants,,,,,,,,yes,,,,,5886569
+16.0,healthy,healthy,control,,,,,,,,yes,,,,,10389659
+25.0,syringomyelia with chronic neuropathic pain,patients,study,,,,,,,,yes,,,,,10389659
+16.0,null,patients,Wistar rats,16.0,0.0,,,,,null,yes,,,,,5362237
+614.0,mood disorder symptoms,patients,Saudi participants,104.0,510.0,26.33,,18.0,74.0,18-74,yes,,,,,6705794
+0.0,null,patients,null,0.0,0.0,,,,,null,,,,,,5884547
+0.0,null,healthy,null,0.0,0.0,,,,,null,,,,,,5884547
+17.0,strabismic amblyopia,patients,Group S,,,,,,,,yes,,,,,3916433
+11.0,anisometropic amblyopia,patients,Group A,,,,,,,,yes,,,,,3916433
+10.0,combined amblyopia (strabismus and anisometropia),patients,Group AS,,,,,,,,yes,,,,,3916433
+22.0,healthy,healthy,cyclists,22.0,0.0,,,,,<21,yes,,,,,3184100
+22.0,healthy,healthy,controls,22.0,0.0,,,,,<21,yes,,,,,3184100
+8.0,none,patients,ferrets,8.0,0.0,,15.0,15.0,,15-15,no,,,,,8559940
+1060.0,null,patients,13-19 years,,,15.7,,13.0,19.0,13-19,yes,,,,,7660520
+6.0,null,patients,control group,,,,,,,,,,,,,4351252
+17.0,null,patients,experimental group,,,,,,,,,,,,,4351252
+30.0,SCAD,patients,SCAD survivors,3.0,27.0,52.2,52.0,35.0,71.0,35-71,,,,,,9447895
+95.0,Alzheimers disease,patients,AD,51.0,44.0,64.84,64.0,59.0,68.0,59-68,,,,,,9659748
+106.0,frontotemporal lobar degeneration,patients,FTLD,45.0,61.0,63.24,63.0,59.0,68.0,59-68,,,,,,9659748
+123.0,null,patients,S. sordida,123.0,0.0,,,,,null,yes,,,,,5764372
+12.0,Sham,patients,Group Constant,0.0,12.0,,,,,,,,,,,3506972
+9.0,HPC,patients,Group Constant,0.0,9.0,,,,,,,,,,,3506972
+8.0,Sham,patients,Group Inconstant,0.0,8.0,,,,,,,,,,,3506972
+10.0,HPC,patients,Group Inconstant,0.0,10.0,,,,,,,,,,,3506972
+5.0,Brucella pinnipedialis 12890,patients,B. pinnipedialis,0.0,5.0,,8.0,8.0,8.0,8 weeks,yes,,,,,4784796
+5.0,Brucella ceti 12891,patients,B. ceti,0.0,5.0,,8.0,8.0,8.0,8 weeks,yes,,,,,4784796
+5.0,Brucella suis 1330,patients,B. suis,0.0,5.0,,8.0,8.0,8.0,8 weeks,yes,,,,,4784796
+6.0,null,patients,Group 1,3.0,3.0,,3.0,2.0,4.0,2-4,yes,,,,,3849430
+78.0,none,patients,drug condition,10.0,68.0,20.24,,18.0,24.0,18-24,yes,,,,,6397859
+164.0,none,patients,drug condition,24.0,140.0,20.27,,17.0,27.0,17-27,yes,,,,,6397859
+5.0,healthy,healthy,volunteers,2.0,3.0,26.0,26.0,23.0,30.0,23-30,,,,,,5869699
+10.0,healthy,healthy,volunteers,5.0,5.0,25.0,25.0,24.0,26.0,24-26,,,,,,5869699
+6.0,arrhythmia,patients,patients,4.0,2.0,52.0,52.0,19.0,73.0,19-73,,,,,,5869699
+6.0,SERT KO,patients,SERT KO mice,3.0,3.0,24.0,24.0,24.0,24.0,24-24,yes,,,,,8527018
+8.0,elite athletes with a disability,patients,Paralympic swimmers,,,,,,,,yes,,,,,4456151
+96.0,none,patients,C3H,48.0,48.0,,10.0,8.0,12.0,8-12,yes,,,,,7213687
+96.0,none,patients,C57Bl/6,48.0,48.0,,10.0,8.0,12.0,8-12,yes,,,,,7213687
+10.0,IL-1 knockout,patients,young,10.0,0.0,3.0,3.0,3.0,3.0,3-3,yes,,,,,5662897
+8.0,IL-1 knockout,patients,adult,8.0,0.0,6.0,6.0,6.0,6.0,6-6,yes,,,,,5662897
+11.0,IL-1r1 knockout,patients,young,11.0,0.0,3.0,3.0,3.0,3.0,3-3,yes,,,,,5662897
+10.0,IL-1r1 knockout,patients,adult,10.0,0.0,6.0,6.0,6.0,6.0,6-6,yes,,,,,5662897
+26.0,wild-type,healthy,young,26.0,0.0,3.0,3.0,3.0,3.0,3-3,yes,,,,,5662897
+19.0,wild-type,healthy,adult,19.0,0.0,6.0,6.0,6.0,6.0,6-6,yes,,,,,5662897
+62.0,first-episode schizophrenia,patients,first-episode,,,,,,,,yes,,,,,9819113
+161.0,chronic schizophrenia,patients,chronic,,,,,,,,yes,,,,,9819113
+151.0,control,healthy,controls,,,,,,,,yes,,,,,9819113
+49.0,HIV control,patients,HIV control,49.0,0.0,35.53,,,,null,yes,,,,,10984160
+16.0,HIV-associated anxiety disorders,patients,HIV ANXs,16.0,0.0,40.13,,,,null,yes,,,,,10984160
+0.0,null,patients,Nf1,0.0,0.0,,,,,null,,,,,,6301684
+0.0,null,healthy,Nf1 control,0.0,0.0,,,,,null,,,,,,6301684
+639.0,null,patients,Katutura Community,,,,,18.0,80.0,18-80,no,,,,,4370519
+134.0,cognitively unimpaired,patients,meditation,,,,,65.0,84.0,65-84,yes,,,,,10691714
+50.0,none,healthy,Chinese college students,26.0,27.0,20.46,20.0,18.0,25.0,18-25,,,,,,10203786
+33.0,Semantic Variant PPA,patients,SPPA,17.0,16.0,62.48,,53.0,87.0,53-87,yes,,,,,5619554
+11.0,Nonfluent Progressive Aphasia,patients,NFPPA,3.0,8.0,66.45,,58.0,77.0,58-77,yes,,,,,5619554
+3.0,Logopenic Progressive Aphasia,patients,LPPA,,,68.0,,,,,yes,,,,,5619554
+21.0,Primary Progressive Aphasia,patients,PPA,,,60.88,,55.0,68.0,55-68,no,,,,,5619554
+20.0,null,patients,tSMS20,,,,,,,null,yes,,,,,10104491
+15.0,glioblastoma multiforme,patients,radiation oncologists,,,,,,,,yes,,,,,4489390
+12.0,null,patients,VIP neurons,,,,,,,null,yes,,,,,4635925
+13.0,left neglect,patients,right-hemisphere stroke patients,7.0,6.0,57.07,,,,N/A,yes,,,,,2600424
+13.0,healthy controls,healthy,age-matched healthy participants,5.0,8.0,53.0,,,,N/A,yes,,,,,2600424
+3309.0,end-stage renal disease (ESRD),patients,dialysis,,,61.7,,19.0,,19-,no,,,,,5832435
+537.0,psychotic disorder,patients,AP polypharmacy,,,33.8,,18.0,65.0,18-65,yes,,,,,7652328
+20.0,healthy,healthy,adults,11.0,9.0,28.4,28.0,25.0,32.0,25-32,,,,,,7500443
+143.0,chronic kidney disease (CKD),patients,CKD,,,46.0,,18.0,75.0,18-75,yes,,,,,5598960
+83.0,essential hypertension (HTN),healthy,HTN,,,53.0,,18.0,75.0,18-75,yes,,,,,5598960
+795.0,obese,patients,obese men,795.0,0.0,,,,,unknown,yes,,,,,2639637
+920.0,randomly sampled,healthy,randomly sampled men,920.0,0.0,,,,,unknown,yes,,,,,2639637
+21.0,post-stroke aphasia,patients,chronic post-stroke aphasia,14.0,7.0,64.0,64.0,43.0,81.0,,yes,,,,,3187541
+0.0,null,patients,null,0.0,0.0,,,,,,,,,,,6392317
+5.0,wt,patients,male,5.0,0.0,,,,,,,,,,,6179189
+5.0,bab,patients,male,5.0,0.0,,,,,,,,,,,6179189
+5.0,wt,healthy,male,5.0,0.0,,,,,,,,,,,6179189
+5.0,low,healthy,male,5.0,0.0,,,,,,,,,,,6179189
+5.0,high,healthy,male,5.0,0.0,,,,,,,,,,,6179189
+25.0,none,healthy,Experiment 1,25.0,0.0,,,,,null,yes,,,,,4600472
+46.0,none,healthy,Experiment 2,46.0,0.0,,,,,null,yes,,,,,4600472
+10.0,none,healthy,Experiment 4,10.0,0.0,,,,,null,yes,,,,,4600472
+13.0,none,healthy,Experiment 5,13.0,0.0,,,,,null,yes,,,,,4600472
+39.0,healthy,healthy,Intentional,24.0,15.0,27.0,27.0,22.0,32.0,22-32,,,,,,4077469
+40.0,healthy,healthy,Unintentional,24.0,16.0,28.0,28.0,21.0,35.0,21-35,,,,,,4077469
+120.0,null,patients,PGS-E participants,0.0,120.0,,16.0,16.0,16.0,16-16,yes,,,,,3960334
+262.0,Anorexia Nervosa,patients,AN cases,0.0,262.0,19.0,19.0,19.0,19.0,19-19,yes,,,,,3852189
+80.0,No history of AN,healthy,controls,0.0,80.0,,,,,,yes,,,,,3852189
+8.0,obesity,patients,Zucker-Lepr,8.0,0.0,,,,,,yes,,,,,4031175
+8.0,healthy,healthy,Zucker-lean,8.0,0.0,,,,,,yes,,,,,4031175
+0.0,null,patients,U937,,,,,,,null,,,,,,3720895
+0.0,null,healthy,U937,,,,,,,null,,,,,,3720895
+5.0,none,patients,2009 group,5.0,0.0,8.0,8.0,8.0,9.0,8-9,no,,,,,3559779
+8.0,none,patients,2010 group,8.0,0.0,8.0,8.0,8.0,9.0,8-9,no,,,,,3559779
+6.0,null,patients,class 1,1.0,0.0,,,,,,,,,,,8824366
+6.0,null,patients,class 2,3.0,0.0,,,,,,,,,,,8824366
+6.0,null,patients,class 3,1.0,0.0,,,,,,,,,,,8824366
+500.0,null,patients,cultured sea urchins,,,,,,,null,,,,,,7161986
+20.0,null,patients,wild sea urchins from barren,,,,,,,null,,,,,,7161986
+20.0,null,patients,wild sea urchins from E. bicyclis bed,,,,,,,null,,,,,,7161986
+97.0,TB,patients,confirmed TB cases,,,,,,,,yes,,,,,5234774
+28.0,non-infectious conditions,healthy,hospitalized controls,,,,,,,,yes,,,,,5234774
+120.0,null,patients,N2,,,,,,,null,yes,,,,,8248617
+0.0,null,patients,null,0.0,0.0,,,,,,,,,,,4460180
+61.0,22q11.2 deletion syndrome,patients,22q11DS,25.0,36.0,15.68,,,,null,yes,,,,,2974935
+27.0,major cardiac defects,patients,CHD,10.0,17.0,13.7,,,,null,yes,,,,,2974935
+26.0,normal heart or benign murmurs,patients,noCHD,13.0,13.0,17.6,,,,null,yes,,,,,2974935
+80.0,typically developing individuals,healthy,control,36.0,44.0,15.98,,,,null,yes,,,,,2974935
+50.0,null,healthy,null,0.0,50.0,,,6.0,24.0,6 months - 2 years,yes,,,,,3438195
+339.0,ASD,patients,ASD,,,,,,,,yes,,,,,8439051
+0.0,,healthy,MRI,,,,,,,,,,,,,5065146
+15.0,tolerant,patients,TOL,,,,,,,,yes,,,,,4361657
+17.0,non-tolerant,patients,non-TOL,,,,,,,,yes,,,,,4361657
+10.0,healthy control,healthy,control,3.0,7.0,32.5,32.5,27.0,59.0,27-59,no,,,,,4361657
+156.0,null,patients,control,38.0,37.0,,,,,,,,,,,3838396
+156.0,null,patients,nutritional restriction,41.0,38.0,,,,,,,,,,,3838396
+368.0,melanoma survivors,patients,intervention,,,56.0,,24.0,75.0,24-75,yes,,,,,9916644
+368.0,melanoma survivors,patients,control,,,56.0,,24.0,75.0,24-75,yes,,,,,9916644
+4779.0,free from CVD,patients,MESA,,,61.9,,45.0,84.0,45-84,yes,,,,,8713797
+24.0,null,patients,Female Sex Workers,0.0,24.0,23.5,23.0,18.0,32.0,18-32,no,,,,,3466319
+3.0,neovascular AMD,patients,donors 1 to 3,,,,,,,,,,,,,6883845
+4.0,no documented ophthalmic history,healthy,donors 5 to 7,,,,,,,,,,,,,6883845
+8.0,null,healthy,SCAR-RNAi-expressing flies,,,,,,,,,,,,,6800343
+8.0,null,healthy,WASp-RNAi-expressing flies,,,,,,,,,,,,,6800343
+8.0,null,healthy,Rac1-CA-expressing flies,,,,,,,,,,,,,6800343
+8.0,null,healthy,Cdc42-CA-expressing flies,,,,,,,,,,,,,6800343
+8.0,null,healthy,Dia-RNAi-expressing flies,,,,,,,,,,,,,6800343
+8.0,null,healthy,Parental controls,,,,,,,,,,,,,6800343
+8.0,null,healthy,CK666-fed flies,,,,,,,,,,,,,6800343
+8.0,null,healthy,Control flies,,,,,,,,,,,,,6800343
+49.0,HCC,patients,HCC patients,,,51.0,,,,null,yes,,,,,4911053
+1054.0,null,healthy,null,,,,,,,null,yes,,,,,3963945
+13.0,none,patients,experimental group,6.0,7.0,23.6,23.0,22.0,25.0,22-25,,,,,,5507288
+9.0,none,patients,control group,3.0,6.0,22.8,22.0,20.0,25.0,20-25,,,,,,5507288
+19.0,aSAH,patients,IA therapy,,,,,,,,yes,,,,,5365119
+153.0,ischemic stroke,patients,overall,,,65.4,,28.0,94.0,28-94,yes,,,,,3922971
+64.0,null,patients,male,64.0,0.0,19.5,,,,null,yes,,,,,4242515
+92.0,null,patients,female,0.0,92.0,19.5,,,,null,yes,,,,,4242515
+106.0,cancer pain,patients,naldemedine,,,,,,,,yes,,,,,9733844
+300.0,advanced cancer,patients,CGP testing,,,,,,,,yes,,,,,10218744
+120.0,Chronic Fatigue Syndrome,patients,CFS,34.0,86.0,,,,,,yes,,,,,4608737
+18444.0,2009 H1N1 vaccination,patients,RCTs,,,,,,,,,,,,,3167852
+897.0,healthy,healthy,self-reported healthy individuals,556.0,341.0,39.7,39.0,20.0,70.0,20-70,no,,,,,5414997
+58.0,anxiety,patients,petting animals,,,,,,,,yes,,,,,5482437
+6.0,vegetative or minimally conscious state,patients,fMRI study participants,3.0,3.0,,,,,,,,,,,7116773
+18.0,submucosal myoma (SMM),patients,SMM,0.0,18.0,40.8,,,,null,yes,,,,,7665806
+16.0,intramural myoma (IMM),patients,IMM,0.0,16.0,,,,,null,yes,,,,,7665806
+17.0,subserosal myoma (SSM),patients,SSM,0.0,17.0,36.3,,,,null,yes,,,,,7665806
+400.0,healthy,healthy,young adults,200.0,200.0,40.9,40.0,25.0,45.0,,,,,,,3866135
+212.0,ICUAW,patients,ICU patients,,,,,,,,yes,,,,,4210178
+23.0,healthy,healthy,HMP,,,,,,,,,,,,,7892788
+17.0,healthy,healthy,LMP,,,,,,,,,,,,,7892788
+8.0,none,patients,C57Bl/6 male mice,8.0,0.0,,9.0,8.0,10.0,8-10,no,,,,,2888573
+316.0,null,patients,younger,,,,,20.0,40.0,20-40,yes,,,,,6224233
+316.0,null,patients,older,,,,,60.0,90.0,60-90,yes,,,,,6224233
+5518.0,healthy,healthy,women,0.0,5518.0,70.2,,65.0,82.0,65-82,yes,,,,,10654785
+7595.0,healthy,healthy,men,7595.0,0.0,70.84,,65.0,82.0,65-82,yes,,,,,10654785
+8.0,Control,patients,Control,8.0,0.0,,,,,,,,,,,3871554
+8.0,TSP-2 treated,patients,TSP-2 treated,8.0,0.0,,,,,,,,,,,3871554
+25.0,sudden sensorineural hearing loss (SNHL),patients,sudden SNHL,14.0,11.0,,,,,,,,,,,5600057
+8.0,healthy,healthy,healthy volunteers,8.0,0.0,,,,,,,,,,,5600057
+15.0,SOD1 mice,patients,Ubiquinone treatment,0.0,15.0,,,,,,yes,,,,,3720666
+15.0,SOD1 mice,patients,Ubiquinol treatment,0.0,15.0,,,,,,yes,,,,,3720666
+119.0,none,patients,overall,58.0,61.0,21.0,21.0,18.0,24.0,18-24,,,,,,9739676
+1.0,schizophrenia,patients,Case 1,1.0,0.0,45.0,45.0,45.0,45.0,,,,,,,8374077
+1.0,schizophrenia,patients,Case 2,0.0,1.0,46.0,46.0,46.0,46.0,,,,,,,8374077
+100.0,,healthy,late adolescents,18.0,82.0,19.8,19.0,18.0,22.0,18-22,,,,,,4951620
+4.0,null,patients,Control,,,,,,,null,no,,,,,3772078
+4.0,null,patients,Gravity (G),,,,,,,null,no,,,,,3772078
+4.0,null,patients,Gravity + LIPUS (GU),,,,,,,null,no,,,,,3772078
+4.0,null,patients,SMG (M),,,,,,,null,no,,,,,3772078
+4.0,null,patients,SMG + LIPUS (MU),,,,,,,null,no,,,,,3772078
+211.0,null,patients,whole blood,,,75.0,,22.0,96.0,22-96,yes,,,,,3465258
+20.0,null,patients,MNCs and PMNCs,10.0,10.0,45.0,,22.0,96.0,22-96,yes,,,,,3465258
+0.0,null,patients,null,0.0,0.0,,,,,,,,,,,3616012
+14.0,"49,XXXXY",patients,"49,XXXXY males",14.0,0.0,,,5.0,17.0,5.1-17.2,yes,,,,,3649771
+7.0,POTS,patients,adolescents,3.0,4.0,,,15.0,18.0,,yes,,,,,4751215
+0.0,null,patients,null,0.0,0.0,,,,,null,,,,,,3753296
+0.0,null,healthy,null,0.0,0.0,,,,,null,,,,,,3753296
+370.0,"HIV, OLD",patients,HIV-infected with OLD,,,,,,,,yes,,,,,3990590
+280.0,none,healthy,disease-free participants,,,,,,,,yes,,,,,3990590
+1.0,infectious mononucleosis,patients,acute infectious mononucleosis,1.0,0.0,19.0,19.0,19.0,19.0,19-19,yes,,,,,3073885
+0.0,,healthy,S. epidermidis CH,,,,,,,,no,,,,,1762332
+208.0,null,healthy,midwives,2.0,206.0,34.0,34.0,28.0,43.0,28-43.5,no,,,,,6483190
+20.0,healthy,healthy,community dwelling participants,10.0,10.0,61.15,,55.0,73.0,55-73,yes,,,,,8548419
+10.0,null,patients,small,,,,,,,null,,,,,,4357454
+10.0,null,patients,medium,,,,,,,null,,,,,,4357454
+10.0,null,patients,large,,,,,,,null,,,,,,4357454
+1.0,null,patients,1-month-old human cadaver,1.0,0.0,1.0,1.0,1.0,1.0,1-1,yes,,,,,4500468
+1.0,null,patients,3-week-old piglet,1.0,0.0,3.0,3.0,3.0,3.0,3-3,yes,,,,,4500468
+330.0,MSA,patients,MSA,,,,,,,,,,,,,3152869
+297.0,PSP,patients,PSP,,,,,,,,,,,,,3152869
+7.0,healthy,healthy,pigs,,,,,,,,yes,,,,,5617181
+21.0,healthy,healthy,experiment 1,6.0,15.0,24.5,24.0,21.0,30.0,21-30,,,,,,6054979
+30.0,healthy,healthy,experiment 2,7.0,23.0,21.0,21.0,18.0,27.0,18-27,,,,,,6054979
+42.0,malaria transmission perceptions,patients,participants,12.0,30.0,38.9,,19.0,72.0,19-72,no,,,,,6546273
+35.0,ischemic or hemorrhagic stroke,patients,stroke survivors with visual impairment,19.0,16.0,,,20.0,75.0,,yes,,,,,5607544
+113.0,HIV/HBV co-infected,patients,HIV/HBV co-infected patients,50.0,63.0,45.0,45.0,24.0,73.0,24-73,yes,,,,,7790253
+6.0,Alzheimers disease,patients,APP TgCRND8,3.0,3.0,6.0,6.0,3.0,9.0,,yes,,,,,9327202
+213.0,IHD,patients,active group,,,,,,,,,,,,,4029626
+107.0,IHD,patients,TAU,,,,,,,,,,,,,4029626
+18.0,OPLL,patients,OPLL patients,,,,,,,,,,,,,4156358
+18.0,non-OPLL,patients,non-OPLL patients,,,,,,,,,,,,,4156358
+1463.0,MS,patients,MS patients,,,28.3,,15.0,45.0,15-45,yes,,,,,7984655
+798.0,null,patients,QTIM,311.0,487.0,22.0,22.0,12.0,30.0,12-30,,,,,,11128777
+396.0,null,patients,QTAB,195.0,201.0,11.0,11.0,9.0,16.0,9-16,,,,,,11128777
+23.0,WP users,patients,current WP users,,,,,,,,yes,,,,,10038263
+40.0,nonusers,healthy,nonusers,,,,,,,,yes,,,,,10038263
+29.0,none,patients,cynomolgus monkeys,29.0,0.0,24.0,24.0,24.0,24.0,24-24,yes,,,,,9202903
+30.0,"typically developing (TD) children, children with attention deficit hyperactivity disorder (ADHD) and autism spectrum disorder (ASD)",patients,TD,5.0,8.0,10.42,10.0,9.0,11.0,9-11,,,,,,4347448
+6.0,autism spectrum disorder (ASD),patients,ASD,6.0,0.0,9.74,10.0,9.0,10.0,9-10,,,,,,4347448
+11.0,attention deficit hyperactivity disorder (ADHD),patients,ADHD,4.0,7.0,10.2,10.0,9.0,11.0,9-11,,,,,,4347448
+16.0,"normal aging, mild cognitive impairment (MCI), Alzheimer's disease (AD), impairment but not MCI",patients,elderly,4.0,3.0,60.09,60.0,58.0,63.0,58-63,,,,,,4347448
+2.0,mild cognitive impairment (MCI),patients,MCI,1.0,1.0,63.6,63.0,63.0,64.0,63-64,,,,,,4347448
+5.0,Alzheimer's disease (AD),patients,AD,3.0,2.0,68.64,69.0,68.0,69.0,68-69,,,,,,4347448
+2.0,impaired but not MCI,patients,impaired,1.0,1.0,58.65,59.0,58.0,59.0,58-59,,,,,,4347448
+10.0,essential tremor,patients,human ET patients,4.0,6.0,,,60.0,79.0,,yes,,,,,10805384
+9.0,none,patients,Long-Evans rats,9.0,0.0,,,,,,yes,,,,,10805384
+7.0,genetic absence epilepsy,patients,GAERS rats,,,,,,,,yes,,,,,10805384
+5.0,none,patients,C57BL/6 mice,5.0,0.0,,,9.0,16.0,,yes,,,,,10805384
+0.0,null,patients,n3,,,,,,,,,,,,,3695931
+0.0,null,patients,PPm3,,,,,,,,,,,,,3695931
+12.0,healthy,healthy,C57/Bl6,12.0,0.0,,,,,,,,,,,3248414
+6.0,healthy,healthy,Kv4.2/,6.0,0.0,,,,,,,,,,,3248414
+7.0,ischemic,patients,ischemic,7.0,0.0,,,,,,,,,,,3309937
+7.0,normal,healthy,normal,7.0,0.0,,,,,,,,,,,3309937
+1484.0,null,patients,White,,,,,5.0,11.0,5-11,yes,,,,,4412635
+1484.0,null,patients,Black,,,,,5.0,11.0,5-11,yes,,,,,4412635
+1484.0,null,patients,South Asian,,,,,5.0,11.0,5-11,yes,,,,,4412635
+1484.0,null,patients,Other,,,,,5.0,11.0,5-11,yes,,,,,4412635
+2.0,ALS,patients,FUS-R518G,1.0,1.0,60.0,60.0,30.0,90.0,30-90,yes,,,,,3631215
+0.0,null,patients,HeLa,,,,,,,,,,,,,4154836
+0.0,null,patients,SiHa,,,,,,,,,,,,,4154836
+0.0,,healthy,C57Bl/6J mice,,,,,,,,,,,,,3469557
+0.0,,healthy,Trpa1 mice,,,,,,,,,,,,,3469557
+0.0,,healthy,Trpv1 mice,,,,,,,,,,,,,3469557
+0.0,,healthy,wild-type littermates,,,,,,,,,,,,,3469557
+233.0,lung transplantation,patients,overall,148.0,85.0,52.97,,,,N/A,yes,,,,,5509107
+8.0,clinically normal,healthy,koalas,4.0,4.0,4.9,4.0,2.0,7.0,2.8-7.5,no,,,,,11023281
+1.0,choroid plexus carcinoma,patients,CPC patients,1.0,0.0,73.0,73.0,73.0,73.0,73-73,yes,,,,,4489946
+40.0,"T2D, obesity, hyperglycemia, insulin-resistance and hyperinsulinemia",patients,db/db mice,40.0,0.0,,,,,,,,,,,3174932
+388017.0,Laysan albatross,healthy,Laysan albatross,,,,,,,,yes,,,,,4580421
+25433.0,black-footed albatross,healthy,black-footed albatross,,,,,,,,yes,,,,,4580421
+129733.0,Bonin petrel,healthy,Bonin petrel,,,,,,,,yes,,,,,4580421
+169.0,acute coronary syndrome,patients,current smokers,,,55.7,,,,unknown,yes,,,,,4619630
+307.0,stable coronary artery disease,patients,never smokers,,,64.4,,,,unknown,yes,,,,,4619630
+17.0,early AD,patients,AD patients,,,,,,,,yes,,,,,6700635
+35.0,neurological controls,healthy,controls,10.0,25.0,57.3,,45.0,70.0,45-70,yes,,,,,6700635
+19.0,null,patients,null,,,25.4,,,,null,,,,,,7351776
+0.0,null,patients,null,0.0,0.0,,,,,,,,,,,4807836
+30.0,none,patients,Heading,15.0,15.0,23.53,23.0,18.0,30.0,18-30,,,,,,10157247
+30.0,none,patients,VR,15.0,15.0,25.73,25.0,18.0,30.0,18-30,,,,,,10157247
+824.0,nephrolithiasis,patients,dietary intervention,,,,,,,,yes,,,,,8055022
+15.0,none,healthy,young adults,7.0,8.0,22.0,22.0,18.0,25.0,18-25,,,,,,4357296
+15.0,none,healthy,older adults,5.0,10.0,75.0,75.0,63.0,92.0,63-92,,,,,,4357296
+1.0,healthy,healthy,male volunteer,1.0,0.0,,,,,,yes,,,,,6560237
+31791.0,obesity,patients,bariatric surgery cohort,,,42.0,,30.0,55.0,30-55,yes,,,,,10194874
+263.0,MS,patients,MS patients,,,,,,,,yes,,,,,10509529
+207.0,NMOSD,patients,NMOSD patients,,,,,,,,yes,,,,,10509529
+338.0,HC,healthy,healthy controls,,,,,,,,yes,,,,,10509529
+0.0,null,patients,null,0.0,0.0,,,,,,,,,,,3261891
+7010.0,HIV-positive,patients,adults,2445.0,4565.0,37.0,37.0,15.0,90.0,15-90,no,,,,,5515476
+12.0,Parkinson's disease,patients,STN recordings,,,,,,,,,,,,,7096181
+4.0,null,patients,Macaca fascicularis,2.0,2.0,,,,,null,yes,,,,,2777259
+1.0,malignant melanoma,patients,A375 cell line,0.0,1.0,54.0,54.0,54.0,54.0,54-54,yes,,,,,4807832
+0.0,null,patients,LNCaP,,,,,,,null,,,,,,3547877
+0.0,null,patients,LNCaP-AI,,,,,,,null,,,,,,3547877
+0.0,null,healthy,COS-7,,,,,,,null,,,,,,3547877
+0.0,null,healthy,PC3,,,,,,,null,,,,,,3547877
+1.0,insomnia,patients,insomnia patients,,,,,,,,yes,,,,,10343953
+1.0,depression,patients,patients with melancholic major depressive disorder with insomnia,,,,,,,,yes,,,,,10343953
+1.0,temporal lobe epilepsy,patients,TLE patients with sleep disorders,,,,,,,,yes,,,,,10343953
+1.0,Alzheimer's disease,patients,Alzheimer's patients with sleep disorders,,,,,,,,yes,,,,,10343953
+29.0,healthy,patients,Diabetes during pregnancy,14.0,15.0,,,,,,yes,,,,,7473588
+0.0,null,patients,null,0.0,0.0,,,,,,,,,,,9847973
+0.0,null,healthy,null,0.0,0.0,,,,,,,,,,,9847973
+5.0,"normal diet, no antibiotics nor essential oils added to the diet",healthy,white diet,,,,,,,,,,,,,8901073
+6.0,antibiotics added to the diet,patients,traditional diet,,,,,,,,,,,,,8901073
+6.0,essential oils added to the diet,patients,oil diet,,,,,,,,,,,,,8901073
+64.0,null,patients,older,30.0,34.0,70.64,70.0,65.0,77.0,65-77,,,,,,6428309
+39.0,null,patients,younger,17.0,22.0,28.74,22.0,18.0,55.0,18-55,,,,,,6428309
+7.0,null,healthy,BHK21,,,,,,,,,,,,,2889835
+7.0,null,healthy,BSRT7,,,,,,,,,,,,,2889835
+7.0,null,healthy,HeLa,,,,,,,,,,,,,2889835
+7.0,null,healthy,A549,,,,,,,,,,,,,2889835
+7.0,null,healthy,4T1,,,,,,,,,,,,,2889835
+7.0,null,healthy,HEp2,,,,,,,,,,,,,2889835
+7.0,null,healthy,Vero,,,,,,,,,,,,,2889835
+15.0,anemia,patients,mothers or caregivers,0.0,15.0,22.84,,18.0,33.0,,,,,,,10035874
+0.0,,healthy,MRI,,,,,,,,,,,,,4689534
+12114.0,COVID-19 seroprevalence study,patients,first round,,,,,,,,yes,,,,,9132278
+72.0,null,patients,MRI participants,13.0,59.0,20.5,,18.0,26.0,18-26,yes,,,,,9828266
+1.0,null,patients,C57/Bl6 mice,,,,,,,8-wk,yes,,,,,10469016
+296.0,null,patients,2019,,,25.7,,19.0,50.0,19-50,yes,,,,,10586704
+291.0,null,patients,2021,,,26.5,,19.0,50.0,19-50,yes,,,,,10586704
+36.0,healthy,healthy,young males,36.0,0.0,25.4,,20.0,40.0,20-40,yes,,,,,3907676
+49.0,MK,patients,Y2020,,,,,,,,,,,,,8372897
+181.0,MK,patients,pre-C19,,,,,,,,,,,,,8372897
+1284.0,various diseases including cancer,patients,development cohort,,,77.0,77.0,58.0,101.0,58-101,yes,,,,,4581840
+98.0,metastatic cancer,patients,validation cohort,,,,,,,,yes,,,,,4581840
+91.0,null,patients,Libyan dental practitioners,15.0,43.0,,,,,null,yes,,,,,10781111
+68.0,autistic,patients,autistic children,,,,,6.0,11.0,6.0-11.0,yes,,,,,11130426
+70.0,non-autistic,healthy,non-autistic children,,,,,6.0,11.0,6.0-11.0,yes,,,,,11130426
+2395.0,post-ERCP pancreatitis,patients,GTN group,,,,,,,,,,,,,3787965
+2395.0,post-ERCP pancreatitis,patients,placebo group,,,,,,,,,,,,,3787965
+20.0,healthy,healthy,volunteers,,,,,,,,,,,,,2424135
+45194.0,null,patients,colorectal cancer,14172.0,31022.0,,,,,null,,,,,,4643904
+20.0,nave,patients,Group 1,10.0,10.0,,4.0,3.0,6.0,3-6,,,,,,3142111
+20.0,immunized,patients,Group 2,10.0,10.0,,4.0,3.0,6.0,3-6,,,,,,3142111
+21.0,PAC (Post-Abortion Care),patients,PAC Patients,0.0,21.0,,,,,,yes,,,,,6150499
+17.0,heart failure,patients,HF participants,,,,,,,,yes,,,,,11125520
+9.0,Iron deficiency anemia,patients,A,,,,,,,,yes,,,,,3667775
+9.0,Iron deficiency anemia,patients,B,,,,,,,,yes,,,,,3667775
+9.0,Iron deficiency anemia,patients,C,,,,,,,,yes,,,,,3667775
+18.0,healthy,healthy,participants,8.0,10.0,22.0,22.0,20.0,25.0,20-25,,,,,,8260738
+13.0,healthy,healthy,participants with N3 sleep,4.0,9.0,22.0,22.0,20.0,25.0,20-25,,,,,,8260738
+156.0,healthy,healthy,active males,,,,,9.0,31.0,9.22-31,yes,,,,,9725163
+3.0,Chronic Myelomonocytic Leukemia,patients,MV-4-11,,,,,,,,,,,,,3281857
+3.0,Chronic Myelomonocytic Leukemia,patients,HL-60,,,,,,,,,,,,,3281857
+3.0,Chronic Myelomonocytic Leukemia,patients,U-937,,,,,,,,,,,,,3281857
+28.0,ASD,patients,ASD adults,,,,,,,,yes,,,,,6461820
+27.0,TD,healthy,TD adults,,,,,,,,yes,,,,,6461820
+355.0,null,patients,Southern Italy,159.0,192.0,45.79,45.0,27.0,72.0,,,,,,,7735630
+1147.0,critically ill patients,patients,SOC group,,,,,,,,yes,,,,,3842947
+1147.0,critically ill patients,patients,high-exposure group,,,,,,,,yes,,,,,3842947
+20.0,healthy,healthy,volunteers,10.0,10.0,30.8,30.0,20.0,40.0,20-40,,,,,,3419733
+3.0,healthy,healthy,saliva donors,3.0,0.0,29.3,29.0,20.0,40.0,20-40,,,,,,3419733
+12.0,nicotine exposure,patients,F1 nicotine male,12.0,0.0,,,,,,,,,,,6191076
+11.0,nicotine exposure,patients,F1 female nicotine,0.0,11.0,,,,,,,,,,,6191076
+18.0,control,healthy,F1 water male,18.0,0.0,,,,,,,,,,,6191076
+13.0,control,healthy,F1 water female,0.0,13.0,,,,,,,,,,,6191076
+256.0,healthy,healthy,male,256.0,0.0,21.8,22.0,18.0,25.0,18-25,yes,,,,,8943682
+40.0,HCC,patients,HCC patients,,,,,,,,,,,,,5991670
+38.0,healthy,healthy,healthy individuals,,,,,,,,,,,,,5991670
+1097.0,renal cell carcinoma,patients,cases,,,,,20.0,79.0,20-79,yes,,,,,3198392
+1497.0,not related to smoking or genitourinary disorders,healthy,controls,,,,,,,,yes,,,,,3198392
+194.0,RA,patients,Cluster A,,,,,,,,,,,,,6655687
+256.0,RA,patients,Cluster B,,,,,,,,,,,,,6655687
+188.0,Mixed RA and OA,patients,Cluster C,,,,,,,,,,,,,6655687
+363.0,OA,patients,Cluster D,,,,,,,,,,,,,6655687
+232.0,Mixed RA and OA,patients,Cluster E,,,,,,,,,,,,,6655687
+12.0,Pituitary dwarfism,patients,untreated dwarfs,,,,,,,,yes,,,,,8351940
+22.0,Pituitary dwarfism,patients,treated with levothyroxine,,,,,,,,yes,,,,,8351940
+13.0,Pituitary dwarfism,patients,treated with levothyroxine and progestogens or GH,,,,,,,,yes,,,,,8351940
+94.0,normal stature,healthy,control group,,,,,,,,yes,,,,,8351940
+30.0,none,healthy,active,11.0,19.0,,,18.0,30.0,18-30,,,,,,8447044
+0.0,null,patients,null,,,,,,,,,,,,,4687847
+20.0,prepresbyopic,healthy,prepresbyopic volunteers,11.0,9.0,25.95,26.0,25.0,26.0,25-26,yes,,,,,4130593
+0.0,,healthy,ASCs,,,,,,,,no,,,,,4806986
+118.0,MDD,patients,MDD,36.0,82.0,,,18.0,56.0,18-56,yes,,,,,4449319
+56.0,asthma,patients,high PAH exposure,,,,,,,,,,,,,2637989
+56.0,nonasthmatic,patients,low PAH exposure,,,,,,,,,,,,,2637989
+1258.0,breast cancer,patients,AA and White women,,,56.0,56.0,35.0,65.0,35-65,yes,,,,,6005569
+12.0,Q fever endocarditis,patients,men,12.0,0.0,,,36.0,75.0,36-75,yes,,,,,4161472
+5.0,Q fever endocarditis,patients,women,0.0,5.0,,,42.0,64.0,42-64,yes,,,,,4161472
+11.0,healthy,healthy,men,6.0,5.0,,,26.0,65.0,26-65,yes,,,,,4161472
+11.0,healthy,healthy,women,7.0,4.0,,,30.0,70.0,30-70,yes,,,,,4161472
+9.0,acute Q fever,patients,men,6.0,3.0,,,42.0,71.0,42-71,yes,,,,,4161472
+9.0,acute Q fever,patients,women,6.0,3.0,,,40.0,68.0,40-68,yes,,,,,4161472
+33.0,non-AMD control,healthy,Cohort 1,,,,,,,,,,,,,7413518
+24.0,AREDS 3,patients,Cohort 1,,,,,,,,,,,,,7413518
+37.0,GA,patients,Cohort 1,,,,,,,,,,,,,7413518
+29.0,non-AMD control,healthy,Cohort 2,,,,,,,,,,,,,7413518
+22.0,AREDS 3,patients,Cohort 2,,,,,,,,,,,,,7413518
+35.0,GA,patients,Cohort 2,,,,,,,,,,,,,7413518
+18.0,cystic fibrosis,patients,itraconazole,,,,,,,,yes,,,,,3340414
+17.0,cystic fibrosis,patients,placebo,,,,,,,,yes,,,,,3340414
+1046.0,null,patients,CCLE dataset,,,,,,,null,yes,,,,,4103868
+500.0,null,healthy,HCP 500,,,,,,,null,yes,,,,,6779267
+24.0,null,patients,hypnotic suggestion,0.0,24.0,,,18.0,45.0,18-45,yes,,,,,6608544
+24.0,null,patients,tDCS,0.0,24.0,,,18.0,45.0,18-45,yes,,,,,6608544
+0.0,null,patients,null,0.0,0.0,,,,,null,,,,,,8221488
+0.0,null,healthy,null,0.0,0.0,,,,,null,,,,,,8221488
+80.0,null,patients,null,21.0,59.0,26.3,26.0,20.0,35.0,20-35,yes,,,,,9584910
+8.0,Ang-II infusion,patients,SA,8.0,0.0,,,,,,,,,,,3498357
+8.0,Ang-II infusion,patients,NT,8.0,0.0,,,,,,,,,,,3498357
+0.0,null,patients,VS/UWS,,,,,,,null,,,,,,7522478
+0.0,null,patients,MCS,,,,,,,null,,,,,,7522478
+0.0,null,patients,MCS+,,,,,,,null,,,,,,7522478
+0.0,null,patients,LIS,,,,,,,null,,,,,,7522478
+0.0,null,healthy,null,,,,,,,null,,,,,,7522478
+12.0,LTBI,patients,stable HBHA- and rESAT-6-IGRA profile,,,,,,,,yes,,,,,3422279
+7.0,LTBI,patients,changing HBHA- and rESAT-6-IGRA profile,,,,,,,,yes,,,,,3422279
+4.0,LTBI,patients,disappearing HBHA- and rESAT-6-IGRA responses,,,,,,,,yes,,,,,3422279
+0.0,,healthy,Miconia albicans,,,,,,,,,,,,,6197632
+0.0,,healthy,Miconia ibaguensis,,,,,,,,,,,,,6197632
+0.0,,healthy,Ditylenchus gallaeformans,,,,,,,,,,,,,6197632
+0.0,,healthy,Eriophyidae,,,,,,,,,,,,,6197632
+910.0,hip fracture,patients,UI,,,82.7,,65.0,100.0,65-100,yes,,,,,9151507
+910.0,hip fracture,patients,DI,,,82.7,,65.0,100.0,65-100,yes,,,,,9151507
+41.0,pulmonary hypertension,patients,PH patients,13.0,28.0,,,,,,,,,,,5501558
+12.0,idiopathic or heritable pulmonary arterial hypertension (PAH),patients,PAH patients,,,41.2,,,,,,,,,,5501558
+29.0,chronic thromboembolic pulmonary hypertension (CTEPH),patients,CTEPH patients,,,63.7,,,,,,,,,,5501558
+1116.0,N/A,patients,young women,0.0,1116.0,,,16.0,25.0,16-25,no,,,,,3360595
+40.0,ICU survivors,patients,InS:PIRE cohort,25.0,15.0,,,,,,,,,,,5706708
+52.0,historical control,patients,historical control group,31.0,21.0,,,,,,,,,,,5706708
+5122.0,migraine,patients,any migraine,,,,,,,,yes,,,,,3136515
+33.0,behavioural-variant frontotemporal dementia,patients,high emotional apathy,,,,,,,,,,,,,10049956
+14.0,Alzheimers disease,patients,high emotional apathy,,,,,,,,,,,,,10049956
+8.0,semantic dementia,patients,high emotional apathy,,,,,,,,,,,,,10049956
+6.0,progressive nonfluent aphasia,patients,high emotional apathy,,,,,,,,,,,,,10049956
+3.0,logopenic progressive aphasia,patients,high emotional apathy,,,,,,,,,,,,,10049956
+12.0,behavioural-variant frontotemporal dementia,patients,low emotional apathy,,,,,,,,,,,,,10049956
+12.0,Alzheimers disease,patients,low emotional apathy,,,,,,,,,,,,,10049956
+5.0,semantic dementia,patients,low emotional apathy,,,,,,,,,,,,,10049956
+5.0,progressive nonfluent aphasia,patients,low emotional apathy,,,,,,,,,,,,,10049956
+2.0,logopenic progressive aphasia,patients,low emotional apathy,,,,,,,,,,,,,10049956
+27.0,healthy controls,healthy,controls,,,,,,,,,,,,,10049956
+20.0,lead exposure,patients,male Wistar rats,20.0,0.0,,,,,null,yes,,,,,8413791
+30.0,diabetes-free survival,patients,C3/ mice,,,,,,,,yes,,,,,3688892
+25.0,hyperglycemia,patients,C3+/+ mice,,,,,,,,yes,,,,,3688892
+0.0,null,patients,null,0.0,0.0,,,,,null,no,,,,,7063673
+30.0,null,patients,DR,10.0,20.0,,,,,null,,,,,,4726667
+15.0,null,patients,NR,,,,,,,null,,,,,,4726667
+36.0,healthy,healthy,experiment one,17.0,19.0,26.0,26.0,20.0,40.0,20-40,yes,,,,,4958375
+32.0,healthy,healthy,experiment two,14.0,18.0,27.0,27.0,20.0,40.0,20-40,yes,,,,,4958375
+252.0,OPSCC,patients,p16 positive,221.0,31.0,60.5,60.0,26.0,98.0,26-98,,,,,,8211260
+252.0,OPSCC,patients,p16 negative,,,,,,,,,,,,,8211260
+0.0,,healthy,null,,,,,,,,,,,,,6013242
+0.0,,healthy,null,,,,,,,,,,,,,6013242
+27.0,remitted MDD,patients,remitted MDD,5.0,22.0,25.6,25.0,18.0,40.0,18-40,,,,,,3783899
+29.0,healthy,healthy,control,7.0,22.0,22.7,22.0,18.0,30.0,18-30,,,,,,3783899
+72.0,null,patients,Experiment 1,,,,,,,null,,,,,,5929902
+72.0,null,patients,Experiment 2,,,,,,,null,,,,,,5929902
+72.0,null,patients,Experiment 3,,,,,,,null,,,,,,5929902
+15.0,enteritis,patients,MTX group,,,,,,,,,,,,,2945766
+15.0,enteritis,patients,MTX+curcumin group,,,,,,,,,,,,,2945766
+15.0,enteritis,patients,MTX+NAC group,,,,,,,,,,,,,2945766
+15.0,enteritis,patients,control group,,,,,,,,,,,,,2945766
+14.0,sub-cortical ischemic stroke,patients,stroke patients,10.0,4.0,66.9,,55.0,78.0,55-78,yes,,,,,6056631
+80.0,HIV negative,patients,MSM,,,24.9,24.0,18.0,29.0,18-29,,,,,,4830617
+14.0,operculo-insular epilepsy (OIE),patients,OIE,5.0,9.0,33.7,,19.0,46.0,19-46,,,,,,6040575
+9.0,medically intractable temporal lobe epilepsy (TLE),patients,TLE,4.0,5.0,27.6,,18.0,36.0,18-36,,,,,,6040575
+26.0,healthy individuals,healthy,HC,13.0,13.0,28.5,,23.0,40.0,23-40,,,,,,6040575
+4835.0,frequent ED users,patients,frequent ED users,,,,,,,,,,,,,4726528
+286.0,Type 2 Diabetes Mellitus,patients,Diabetic Patients,73.0,213.0,51.0,51.0,18.0,90.0,18-90,yes,,,,,9447889
+150.0,PD,patients,PD-CN,,,,,,,,,,,,,8874137
+150.0,PD,patients,PD-MCI,,,,,,,,,,,,,8874137
+150.0,PD,patients,PDD,,,,,,,,,,,,,8874137
+0.0,,healthy,hAECs,,,,,,,,no,,,,,5870984
+4.0,Cry-resistant,patients,H. virescens,,,,,,,,,,,,,3046977
+2.0,Cry-resistant,patients,H. armigera,,,,,,,,,,,,,3046977
+2.0,Cry-resistant,patients,S. frugiperda,,,,,,,,,,,,,3046977
+15.0,VML only (negative control),patients,VML only,15.0,0.0,,,,,,,,,,,7505427
+15.0,VML+SMU,patients,VML+SMU,15.0,0.0,,,,,,,,,,,7505427
+768.0,,healthy,sexual abuse history,331.0,421.0,61.2,,,,59.9-62.8,yes,,,,,3893132
+12643.0,type 2 diabetes,patients,overall,,,57.2,,18.0,100.0,18-100,no,,,,,4210124
+11.0,NFL-KO,patients,5 months,,,,,,,,yes,,,,,6808381
+7.0,WT,healthy,5 months,,,,,,,,yes,,,,,6808381
+6.0,NFL-KO,patients,22 months,,,,,,,,yes,,,,,6808381
+7.0,WT,healthy,22 months,,,,,,,,yes,,,,,6808381
+22.0,Cystic Fibrosis,patients,G542X mutation,11.0,11.0,,,,,,yes,,,,,6010256
+10.0,Cystic Fibrosis,patients,CF Patients,,,,,,,,yes,,,,,9122229
+7073.0,HIV or AIDS,patients,single pill per day,,,45.0,,,,null,no,,,,,3286454
+7073.0,HIV or AIDS,patients,two pills per day,,,45.0,,,,null,no,,,,,3286454
+7073.0,HIV or AIDS,patients,three or more pills per day,,,45.0,,,,null,no,,,,,3286454
+620.0,MCI,patients,overall,,,,,,,,yes,,,,,8249246
+1433.0,gonorrhoea,patients,MSM,1310.0,123.0,31.0,31.0,16.0,86.0,16-86,no,,,,,5730201
+1433.0,gonorrhoea,patients,MSW,506.0,927.0,31.0,31.0,16.0,86.0,16-86,no,,,,,5730201
+1433.0,gonorrhoea,patients,women,1388.0,45.0,,,,,,no,,,,,5730201
+80.0,AD,patients,AD patients,,,,,,,,yes,,,,,3616972
+79.0,healthy controls,healthy,healthy controls,,,,,,,,yes,,,,,3616972
+243.0,typically developing,patients,children and adolescents,120.0,123.0,11.73,,9.0,15.0,9-15,yes,,,,,9374891
+113605.0,null,patients,HEXA-G,,,,,,,null,yes,,,,,5906014
+164.0,healthy,healthy,full-term newborns with family history of CD,,,,,,,,yes,,,,,3272021
+350.0,null,patients,C. stygia,,,,,,,null,yes,,,,,3760806
+140.0,none,healthy,Cuviers gazelle,53.0,95.0,,,,,,,,,,,4682998
+26.0,healthy,healthy,experiment 1,2.0,12.0,24.6,24.0,24.0,25.0,24-25,,,,,,4510640
+12.0,healthy,healthy,experiment 2,4.0,8.0,24.5,24.0,24.0,25.0,24-25,,,,,,4510640
+141.0,null,patients,fat suppressed contrast-enhanced T1-weighted MRI,64.0,77.0,58.0,58.0,18.0,94.0,18-94,,,,,,8960587
+84.0,null,patients,T1-weighted MRI,40.0,44.0,56.0,56.0,18.0,87.0,18-87,,,,,,8960587
+71.0,null,patients,both scan sequences,34.0,37.0,58.0,58.0,17.0,87.0,17-87,,,,,,8960587
+63.0,stage 3 CKD and hyperuricemia,patients,allopurinol,,,,,,,,,,,,,6200237
+63.0,stage 3 CKD and hyperuricemia,patients,placebo,,,,,,,,,,,,,6200237
+20.0,healthy,healthy,young adults,,,,,,,,,,,,,3873305
+9.0,healthy,healthy,young adults,,,,,,,,,,,,,3873305
+1301.0,HIV,patients,MSM,,,22.5,22.0,12.0,71.0,12-71,no,,,,,3212560
+12.0,null,patients,Sprague Dawley rats,6.0,6.0,,,8.0,12.0,8-12,yes,,,,,3813445
+5083.0,null,patients,19 years and under,,,,,,,null,yes,,,,,6292636
+5083.0,null,patients,20-34 years,,,,,,,null,yes,,,,,6292636
+5083.0,null,patients,35 years and over,,,,,,,null,yes,,,,,6292636
+25.0,healthy,healthy,women,0.0,25.0,45.0,45.0,40.0,50.0,40-50,no,,,,,3946127
+1164.0,NCD risk factors,patients,Haramaya University employees,,,31.9,,30.0,69.0,30-69,yes,,,,,8884490
+436.0,breast cancer,patients,AIs-related MS-AEs Group,0.0,436.0,,,,,,yes,,,,,3716812
+402.0,Special educational needs and disabilities (SEND),patients,SEND,258.0,144.0,13.04,13.0,1.0,45.0,1-45,no,,,,,8246131
+3624.0,infected,patients,Northwest Sydney cluster,,,,,,,,yes,,,,,3335077
+61.0,null,patients,H (normal lactobacilli-dominated microbiota),0.0,61.0,31.0,31.0,21.0,44.0,21-44,,,,,,9197028
+15.0,bacterial vaginosis (BV),patients,BV,0.0,15.0,,,,,,,,,,,9197028
+22.0,intermediate microbiota,patients,I,0.0,22.0,,,,,,,,,,,9197028
+123.0,null,patients,first-year psychology undergraduates,31.0,92.0,19.86,19.0,17.0,52.0,17-52,,,,,,5933718
+117.0,null,patients,adults from German cities,,,29.1,,17.0,65.0,17-65,,,,,,5933718
+0.0,null,patients,null,0.0,0.0,,,,,,,,,,,10984546
+0.0,null,healthy,null,0.0,0.0,,,,,,,,,,,10984546
+20.0,Oxygen-induced retinopathy (OIR) model,patients,C57BL/6 mice,,,,,,,,yes,,,,,3391198
+5.0,HIV-1 gp120,patients,gp120 treatment,3.0,2.0,,,,,,,,,,,9124804
+6.0,control,healthy,saline,5.0,1.0,,,,,,,,,,,9124804
+5.0,HIV-1 gp120,patients,gp120 followed by rolipram,3.0,2.0,,,,,,,,,,,9124804
+7.0,null,patients,L2/3 pyramidal neurones,,,,,,,null,yes,,,,,3137631
+247.0,null,patients,null,94.0,153.0,27.3,,,,null,,,,,,4795763
+20.0,homozygotes,patients,homozygotes,,,,,,,,yes,,,,,4511001
+98.0,heterozygotes,patients,heterozygotes,,,,,,,,yes,,,,,4511001
+89.0,wild type,patients,wild type,,,,,,,,yes,,,,,4511001
+1.0,healthy,healthy,young,,,,,,,,yes,,,,,7929986
+6.0,null,patients,Fisher rats,0.0,6.0,,,,,null,,,,,,4669183
+50.0,healthy,healthy,students,19.0,31.0,25.06,25.0,18.0,39.0,18-39,,,,,,8599192
+31.0,AD,patients,CSF biomarker-positive AD,,,,,,,,yes,,,,,6902042
+16.0,MCI,patients,CSF biomarker-positive MCI,,,,,,,,yes,,,,,6902042
+31.0,normal cognitively intact controls,healthy,cognitively intact biomarker-negative controls,,,,,,,,yes,,,,,6902042
+20.0,null,healthy,students,6.0,14.0,22.6,22.0,19.0,26.0,19-26,,,,,,5298484
+24.0,suicidal patients,patients,suicidal,,,,,,,,,,,,,5509773
+21.0,non-suicidal patients,patients,non-suicidal,,,,,,,,,,,,,5509773
+22.0,healthy controls,healthy,controls,,,,,,,,,,,,,5509773
+12.0,none,patients,Mas-TRECK Tg mice,,,,,,,,,,,,,3184129
+13.0,none,patients,Mas-TRECK Tg mice,,,,,,,,,,,,,3184129
+6.0,none,patients,Mas-TRECK Tg mice,,,,,,,,,,,,,3184129
+5.0,none,patients,Mas-TRECK Tg mice,,,,,,,,,,,,,3184129
+36.0,leukemia/lymphoma,patients,Nalm-6,,,,,,,,,,,,,3767772
+0.0,,healthy,MRI,,,,,,,,,,,,,7745967
+10.0,null,patients,deionized water,,,,,,,null,no,,,,,11006189
+10.0,null,patients,cola,,,,,,,null,no,,,,,11006189
+10.0,null,patients,pomegranate juice,,,,,,,null,no,,,,,11006189
+109.0,bipolar disorder,patients,bipolar disorder,,,39.0,,18.0,70.0,18-70,yes,,,,,9915674
+79.0,control,healthy,comparison control,,,,,,,,yes,,,,,9915674
+1210.0,none,patients,T. gondii tachyzoites,,,,,,,,yes,,,,,3081817
+21.0,null,patients,expert mice,9.0,12.0,,,,,,,,,,,10501641
+8.0,healthy,healthy,Healthy control,8.0,0.0,,,,,,,,,,,9365195
+8.0,HCC-induced,patients,HCC-induced,8.0,0.0,,,,,,,,,,,9365195
+5.0,none,healthy,line 6,0.0,5.0,15.0,15.0,15.0,15.0,15-15,yes,,,,,2254315
+5.0,none,healthy,line 7,0.0,5.0,12.0,12.0,12.0,12.0,12-12,yes,,,,,2254315
+38.0,,healthy,lisuride treatment,,,,,,,,,,,,,2797624
+45.0,,healthy,"MDL 11,939 treatment",,,,,,,,,,,,,2797624
+46.0,,healthy,raclopride treatment,,,,,,,,,,,,,2797624
+50.0,,healthy,WAY-100635 treatment,,,,,,,,,,,,,2797624
+47.0,,healthy,LSD treatment,,,,,,,,,,,,,2797624
+46.0,,healthy,"MDL 11,939 LSD treatment",,,,,,,,,,,,,2797624
+87.0,Alzheimers disease,patients,GSE5281,,,,,,,,yes,,,,,11135670
+74.0,healthy controls,healthy,GSE5281,,,,,,,,yes,,,,,11135670
+56.0,Alzheimers disease,patients,GSE122063,,,,,,,,yes,,,,,11135670
+44.0,healthy controls,healthy,GSE122063,,,,,,,,yes,,,,,11135670
+0.0,null,healthy,null,0.0,0.0,,,,,,,,,,,3827235
+27.0,HIV-infected,patients,LATTE-2 trial participants,25.0,2.0,,,,,,yes,,,,,5755771
+16.0,none,patients,C57BL/6J male mice,8.0,8.0,,,,,not specified,yes,,,,,4372440
+18.0,naturally cycling women,patients,menstrual phase,0.0,18.0,,,,,,yes,,,,,3781309
+25.0,men,healthy,hormonal contraceptives,25.0,0.0,,,,,,yes,,,,,3781309
+25.0,women using hormonal contraceptives,patients,hormonal contraceptives,0.0,25.0,,,,,,yes,,,,,3781309
+45.0,ASDs,patients,Modified Atkins diet,,,38.0,38.0,38.0,38.0,38,yes,,,,,10364988
+37.0,cognitively healthy older adults,patients,older adults,18.0,19.0,71.0,71.0,60.0,86.0,60-86,yes,,,,,6927623
+9.0,rda/rda mutant,patients,rda,,,,,,,,,,,,,3338648
+8.0,rda/rda mutant,patients,rda,,,,,,,,,,,,,3338648
+8.0,+ rda,healthy,+ rda,,,,,,,,,,,,,3338648
+4.0,+ rda,healthy,+ rda,,,,,,,,,,,,,3338648
+17.0,+ +,healthy,+ +,,,,,,,,,,,,,3338648
+806.0,null,patients,null,,,,,,,,,,,,,10234566
+359.0,null,healthy,university students,,,,,,,null,yes,,,,,10208514
+58.0,sickle cell disease,patients,top-ranked manuscripts from NS countries,,,,,,,,,,,,,5315297
+2.0,neutropenia complicating Rh incompatibility-induced hydrops fetalis,patients,top-ranked manuscripts from nNS countries,,,,,,,,,,,,,5315297
+1.0,acute myeloid leukemia,patients,bottom-ranked manuscripts from NS countries,1.0,0.0,3.0,3.0,3.0,3.0,3-3,,,,,,5315297
+1.0,Alexander's disease,patients,bottom-ranked manuscripts from NS countries,1.0,0.0,6.0,6.0,6.0,6.0,6-6,,,,,,5315297
+1.0,combined deficiency of coagulant activity of the vitamin K-dependent factors,patients,bottom-ranked manuscripts from nNS countries,1.0,0.0,14.0,14.0,14.0,14.0,14-14,,,,,,5315297
+52.0,advanced neuroblastoma,patients,bottom-ranked manuscripts from nNS countries,,,,,,,,,,,,,5315297
+22.0,healthy,healthy,healthy subjects,,,,,,,,yes,,,,,5640224
+139.0,glaucomatous,patients,glaucomatous patients,,,,,,,,yes,,,,,5640224
+4.0,null,patients,female Wistar rats,0.0,4.0,,,,,null,yes,,,,,3699505
+154.0,idiopathic RBD,patients,prodromal Parkinsons disease,,,,,,,,yes,,,,,6598638
+102.0,healthy controls,healthy,age- and sex-matched controls,,,,,,,,yes,,,,,6598638
+278.0,healthy young adults,healthy,young adults,,,20.41,20.0,18.0,25.0,18-25,yes,,,,,8903281
+139.0,healthy older adults,healthy,older adults,,,64.63,64.0,55.0,75.0,55-75,yes,,,,,8903281
+41.0,early-stage Parkinsons disease,patients,Parkinsons disease,,,68.28,68.0,60.0,75.0,60-75,yes,,,,,8903281
+26.0,stable angina,patients,DCB,,,,,,,,yes,,,,,10721025
+26.0,stable angina,patients,DES,,,,,,,,yes,,,,,10721025
+10.0,Type 2 diabetes,patients,T2D rats,10.0,0.0,,,,,null,no,,,,,4420285
+80.0,STGD1,patients,STGD1 patients,36.0,44.0,46.0,46.0,17.0,84.0,17-84,,,,,,8232401
+182.0,PTMC,patients,PTMC patients,24.0,158.0,48.8,,,,N/A,yes,,,,,7775061
+1016.0,breast cancer,patients,breast cancer patients,,,50.0,,,,null,yes,,,,,4091942
+806.0,healthy,healthy,healthy controls,,,48.9,,,,null,yes,,,,,4091942
+2819.0,Acute coronary syndrome (ACS),patients,CKD,2230.0,589.0,62.9,,,,unknown,yes,,,,,3756021
+32.0,null,patients,young adults,16.0,16.0,23.41,23.0,18.0,30.0,18-30,,,,,,5490672
+93.0,null,patients,introductory psychology students,22.0,71.0,22.02,,,,null,,,,,,5490672
+55.0,ALS,patients,bulbar impairment,30.0,25.0,62.0,,29.0,89.0,29-89,yes,,,,,6698695
+20.0,ASD,patients,ASD,,,,,7.0,15.0,7-15,yes,,,,,5939224
+20.0,NT,healthy,NT,,,,,7.0,15.0,7-15,yes,,,,,5939224
+56.0,HIV,patients,released from corrections,,,,,,,,yes,,,,,5809020
+7.0,null,patients,ISS < 16,4.0,3.0,,59.0,18.0,84.0,18-84,,,,,,7790403
+7.0,null,patients,ISS 16,4.0,3.0,,59.0,18.0,84.0,18-84,,,,,,7790403
+3.0,null,patients,mild or moderate TBI,2.0,1.0,,59.0,18.0,84.0,18-84,,,,,,7790403
+120.0,none,patients,male,120.0,0.0,,,,,,yes,,,,,8721142
+15.0,neurologically intact,patients,right-handed volunteers,8.0,7.0,24.5,24.0,20.0,30.0,20-30,,,,,,10335960
+57.0,null,patients,adult female SpragueDawley rats,0.0,57.0,2.0,2.0,2.0,2.0,2-2,yes,,,,,10885699
+0.0,null,patients,null,0.0,0.0,,,,,,,,,,,7906300
+688.0,HIV positive,patients,Low Stable,,,,,,,,yes,,,,,7505419
+688.0,HIV positive,patients,Low Increasing,,,,,,,,yes,,,,,7505419
+688.0,HIV positive,patients,Moderate Stable,,,,,,,,yes,,,,,7505419
+688.0,HIV positive,patients,High Increasing,,,,,,,,yes,,,,,7505419
+152.0,null,patients,surgeons and anaesthetists,95.0,57.0,44.5,,,,null,yes,,,,,4103799
+1.0,Leber hereditary optic neuropathy (LHON),patients,childhood-onset LHON,1.0,0.0,10.0,10.0,10.0,10.0,10-10,yes,,,,,5811516
+36.0,lifelong PE,patients,LPE patients,36.0,0.0,,,,,,,,,,,8473781
+23.0,normal controls,healthy,NCs,23.0,0.0,,,,,,,,,,,8473781
+351.0,null,patients,school-age children,,,,,6.0,12.0,6-12,yes,,,,,8735612
+20.0,null,patients,click dyads,10.0,10.0,24.757,,22.0,39.0,,yes,,,,,9232116
+3.0,ovarian cancer,patients,A1847,0.0,3.0,,,,,,,,,,,3767807
+3.0,ovarian cancer,patients,A2780,0.0,3.0,,,,,,,,,,,3767807
+3.0,ovarian cancer,patients,OVCAR10,0.0,3.0,,,,,,,,,,,3767807
+16.0,healthy,healthy,volunteers,8.0,8.0,27.0,27.0,27.0,28.0,27-28,yes,,,,,3461471
+49.0,"no history of psychiatric, neurological or other medical illness",patients,English,19.0,30.0,21.3,21.0,18.0,30.0,18-30,,,,,,9424229
+35.0,healthy,patients,Chinese,20.0,15.0,19.3,19.0,18.0,25.0,18-25,,,,,,9424229
+28.0,healthy,patients,French,13.0,15.0,24.4,24.0,20.0,30.0,20-30,,,,,,9424229
+173.0,null,patients,Manitoba,139.0,44.0,,,,,null,,,,,,3173445
+56.0,null,patients,South Dakota,5.0,51.0,,,,,null,,,,,,3173445
+44.0,null,patients,Kansas,20.0,24.0,,,,,null,,,,,,3173445
+921.0,Type 2 diabetes,patients,empagliflozin,,,56.0,56.0,,,null,yes,,,,,9576049
+921.0,Type 2 diabetes,patients,dapagliflozin,,,56.0,56.0,,,null,yes,,,,,9576049
+1842.0,Type 2 diabetes,patients,DPP4i,,,57.0,57.0,,,null,yes,,,,,9576049
+23.0,unfamiliar,patients,unfamiliar,10.0,13.0,22.02,22.0,18.0,29.0,,,,,,,7074657
+22.0,familiar,healthy,familiar,9.0,13.0,,,,,,,,,,,7074657
+2.0,null,patients,monkey F,1.0,0.0,,,,,,,,,,,6915702
+2.0,null,patients,monkey J,1.0,0.0,,,,,,,,,,,6915702
+31191.0,depressive symptoms,patients,NHANES,,,47.0,47.0,30.0,80.0,30-80,yes,,,,,6620014
+5.0,Rett syndrome,patients,Mecp2 mice,5.0,0.0,18.0,18.0,18.0,18.0,18-18,yes,,,,,5559075
+9.0,C. trachomatis,patients,Set 1,,,,,,,,,,,,,4074039
+14.0,C. trachomatis,patients,Set 2,,,,,,,,,,,,,4074039
+10.0,C. trachomatis,patients,Set 3,,,,,,,,,,,,,4074039
+625.0,none,patients,SMC participants,625.0,0.0,,,,,,yes,,,,,4132017
+4.0,normal and dystrophic,patients,dogs,2.0,2.0,,,,,adult,yes,,,,,3917863
+20.0,tooth extraction,patients,non-administration,,,,,,,,,,,,,6028143
+20.0,tooth extraction,patients,PLGA 100 mg control,,,,,,,,,,,,,6028143
+20.0,tooth extraction,patients,SRLS 100 mg,,,,,,,,,,,,,6028143
+20.0,tooth extraction,patients,SRLS 200 mg,,,,,,,,,,,,,6028143
+20.0,tooth extraction,patients,SRLS 400 mg,,,,,,,,,,,,,6028143
+54.0,bilateral severe to profound hearing loss,patients,cochlear implant candidates,31.0,23.0,5.2,5.0,0.0,17.0,0-17,,,,,,10544541
+47.0,normal hearing,healthy,age- and sex-matched children,32.0,15.0,7.5,7.0,0.0,17.0,0-17,,,,,,10544541
+585.0,AIBD,patients,AIBD,,,45.2,,2.0,100.0,2-100,no,,,,,8277047
+53.0,eating disorder,patients,hypermobile,,,22.7,,,,null,,,,,,8790080
+0.0,null,patients,VSMCs,0.0,0.0,,,,,,,,,,,5439712
+23.0,healthy,patients,ME,0.0,23.0,21.2,,18.0,26.0,18-26,yes,,,,,4606127
+17.0,healthy,patients,MH,0.0,17.0,20.9,,18.0,23.0,18-23,yes,,,,,4606127
+15.0,healthy,patients,NM,0.0,15.0,21.6,,19.0,23.0,19-23,yes,,,,,4606127
+0.0,null,patients,L929 cells,,,,,,,,,,,,,3585731
+12.0,Hepatocellular carcinoma,patients,primary HCC tissues,,,,,,,,yes,,,,,3418236
+11.0,colorectal cancer,patients,colon cancer,,,,,,,,yes,,,,,3418236
+0.0,null,patients,null,0.0,0.0,,,,,,,,,,,4401770
+17.0,null,patients,mice,17.0,0.0,,,,,2-3 months,,,,,,7837117
+4.0,null,patients,ACC imaging,4.0,0.0,,,,,null,,,,,,7837117
+14.0,null,patients,two-step task ACC manipulation,8.0,6.0,,,,,null,,,,,,7837117
+14.0,null,patients,probabilistic reversal learning task ACC manipulation,8.0,6.0,,,,,null,,,,,,7837117
+900.0,null,patients,ADNI,,,,,55.0,90.0,55-90,yes,,,,,7308803
+770.0,AD,patients,"ADNI1, ADNI2, ADNI-GO",,,,,,,null,yes,,,,,7308803
+459.0,mild cognitive impairment,patients,"ADNI1, ADNI2, ADNI-GO",,,,,,,null,yes,,,,,7308803
+262.0,nondemented/controls,healthy,"ADNI1, ADNI2, ADNI-GO",,,,,,,null,yes,,,,,7308803
+204.0,AD,patients,UKBB,,,,,,,null,yes,,,,,7308803
+316.0,null,patients,breastfed,171.0,145.0,3.2,3.0,3.0,4.0,3-3.5,yes,,,,,3254612
+108.0,breast cancer,patients,breast cancer patients,,,,,,,,,,,,,3050918
+100.0,healthy,healthy,healthy women,0.0,100.0,,,,,,,,,,,3050918
+17.0,not specified,patients,preterm infants,,,,,,,,yes,,,,,9033282
+54.0,healthy controls (HCs),healthy,HCs,,,,,,,,yes,,,,,7081773
+31.0,microtia,patients,microtia patients,8.0,23.0,13.0,13.0,6.0,17.0,6-17,yes,,,,,8409618
+198.0,COVID-19,patients,Facility A Residents,,,,,,,,no,,,,,7591018
+49.0,M. nurag,patients,Mediterranean,0.0,49.0,,,,,,yes,,,,,4229126
+54.0,M. jurtina,patients,Mediterranean,0.0,54.0,,,,,,yes,,,,,4229126
+34.0,M. jurtina,patients,Central European,0.0,34.0,,,,,,yes,,,,,4229126
+65.0,Alzheimers disease,patients,AD,65.0,0.0,,,,,,,,,,,9482276
+48.0,Frontotemporal dementia,patients,FTD,,,,,,,,,,,,,9482276
+20.0,Mild cognitive impairment,patients,MCI,,,,,,,,,,,,,9482276
+13.0,Psychiatric disorders,patients,Psy,,,,,,,,,,,,,9482276
+21.0,Healthy controls,healthy,Con,,,,,,,,,,,,,9482276
+197.0,none,patients,higher risk,94.0,91.0,66.4,66.0,60.0,80.0,60-80,,,,,,5529958
+197.0,none,patients,lower risk,,,,,,,,,,,,,5529958
+168.0,Deficit Schizophrenia (DSZ),patients,DSZ,,,,,,,,,,,,,10827665
+373.0,Non-Deficit Schizophrenia (NDSZ),patients,NDSZ,,,,,,,,,,,,,10827665
+1019.0,Healthy Controls (HC),healthy,HC,,,,,,,,,,,,,10827665
+575.0,Healthy Controls (HC),healthy,HC,,,,,,,,,,,,,10827665
+1189090.0,dementia,patients,White,,,70.9,,65.0,100.0,65-100,yes,,,,,10566703
+13082.0,dementia,patients,South Asian,,,69.4,,65.0,100.0,65-100,yes,,,,,10566703
+9166.0,dementia,patients,Black,,,69.7,,65.0,100.0,65-100,yes,,,,,10566703
+14.0,null,healthy,little brown myotis,14.0,0.0,,,,,null,yes,,,,,3290531
+12.0,null,healthy,long-eared myotis,,,,,,,null,yes,,,,,3290531
+7.0,null,healthy,fringed myotis,,,,,,,null,yes,,,,,3290531
+4.0,null,healthy,Townsend's big-eared bats,,,,,,,null,yes,,,,,3290531
+11.0,null,healthy,pallid bats,,,,,,,null,yes,,,,,3290531
+59.0,uncomplicated malaria,patients,uncomplicated malaria,,,,,,,,yes,,,,,5705151
+15.0,severe malaria,patients,severe malaria,,,,,,,,yes,,,,,5705151
+10.0,healthy,healthy,C57BL/6J wild-type (WT),10.0,0.0,,,4.0,8.0,4-8 months,yes,,,,,4585492
+5.0,epileptic,patients,Syn II knockout (Syn II),5.0,0.0,,,4.0,8.0,4-8 months,yes,,,,,4585492
+34.0,MDD,patients,middle-aged and older adults,10.0,24.0,61.6,61.0,45.0,75.0,45-75,,,,,,8096948
+0.0,,healthy,,,,,,,,,,,,,,8096948
+16.0,EXT1 carriers,patients,EXT1 carriers,,,,,,,,yes,,,,,4277348
+6.0,EXT2 carriers,patients,EXT2 carriers,,,,,,,,yes,,,,,4277348
+26.0,non-carrier controls,healthy,non-carrier controls,,,,,,,,yes,,,,,4277348
+9.0,mono-associated with the commensal species ZWU0020 of the genus Vibrio,patients,Vibrio,,,,,,,,,,,,,6292638
+2.0,germ-free,patients,germ-free,,,,,,,,,,,,,6292638
+1.0,mono-associated with Pseudomonas ZWU0006,patients,Pseudomonas,,,,,,,,,,,,,6292638
+15.0,SNI,patients,male,15.0,0.0,,,6.0,8.0,6.5-8,yes,,,,,4111598
+15.0,sham,patients,male,15.0,0.0,,,6.0,8.0,6.5-8,yes,,,,,4111598
+10.0,SNI,patients,female,0.0,10.0,,,6.0,8.0,6.5-8,yes,,,,,4111598
+11.0,sham,patients,female,0.0,11.0,,,6.0,8.0,6.5-8,yes,,,,,4111598
+8.0,SNI,patients,male,8.0,0.0,,,6.0,8.0,6.5-8,yes,,,,,4111598
+8.0,sham,patients,male,8.0,0.0,,,6.0,8.0,6.5-8,yes,,,,,4111598
+5.0,SNI,patients,female,0.0,5.0,,,6.0,8.0,6.5-8,yes,,,,,4111598
+6.0,sham,patients,female,0.0,6.0,,,6.0,8.0,6.5-8,yes,,,,,4111598
+42.0,healthy,healthy,healthy participants,,,24.7,25.0,20.0,30.0,20-30,,,,,,9095461
+23.0,cardioembolic stroke,patients,stroke,12.0,11.0,,,,,,,,,,,4103830
+23.0,vascular risk factor controls,healthy,VRFC,12.0,11.0,,,,,,,,,,,4103830
+0.0,null,patients,U251MG,,,,,,,null,,,,,,3827196
+0.0,null,patients,U87MG,,,,,,,null,,,,,,3827196
+0.0,null,patients,U118MG,,,,,,,null,,,,,,3827196
+0.0,null,patients,T98G,,,,,,,null,,,,,,3827196
+3.0,prion disease,patients,Tg(MHM223-88)/Prnp mice,2.0,1.0,,,538.0,730.0,538-730,yes,,,,,4199594
+3.0,prion disease,patients,Tg(MHM223-88)/Prnp mice,2.0,1.0,,,347.0,393.0,347-393,yes,,,,,4199594
+3.0,prion disease,patients,Prnp mice,2.0,1.0,,,469.0,496.0,469-496,yes,,,,,4199594
+37.0,healthy controls,healthy,HC,23.0,14.0,38.3,,30.0,50.0,30-50,yes,,,,,9668609
+18.0,drug-resistant TLE,patients,TLE,10.0,8.0,35.67,,25.0,50.0,25-50,yes,,,,,9668609
+18.0,anti-AIV antibody positive,patients,yellow-legged gulls,0.0,18.0,,,,,,no,,,,,3348933
+0.0,null,patients,null,0.0,0.0,,,,,,,,,,,5104413
+323.0,null,healthy,students,142.0,181.0,,,,,20-30,yes,,,,,6261539
+20.0,COVID-19 related stress,patients,Veterans,17.0,3.0,54.2,54.0,28.0,72.0,28-72,,,,,,9754814
+292.0,bTB suggestive histopathology,patients,cattle with bTB-like lesions,,,,,,,,,,,,,6261039
+81.0,control population,healthy,cattle without bTB-like lesions,,,,,,,,,,,,,6261039
+2567.0,HIV-infected adults with invasive pneumococcal disease,patients,overall,799.0,1033.0,37.7,37.0,18.0,64.0,,,,,,,3225377
+7.0,null,patients,null,6.0,4.0,,,17.0,35.0,17-35,yes,,,,,3797963
+0.0,null,patients,null,0.0,0.0,,,,,null,,,,,,3537769
+0.0,null,healthy,null,0.0,0.0,,,,,null,,,,,,3537769
+0.0,null,patients,null,,,,,,,null,,,,,,9067309
+0.0,null,healthy,null,,,,,,,null,,,,,,9067309
+39462.0,null,patients,women of reproductive age,0.0,39462.0,,,18.0,44.0,18-44,no,,,,,7728245
+49.0,SCC,patients,HNSCC,,,,,,,,yes,,,,,5760229
+65.0,diabetic nephropathy,patients,cases,,,,,,,,yes,,,,,2958112
+83.0,no diabetic nephropathy,healthy,controls,,,,,,,,yes,,,,,2958112
+9.0,Parkinson disease,patients,C57BL/6 wild-type mice,,,,,,,46 months,yes,,,,,7991918
+3.0,Parkinson disease,patients,LSNTD1,,,,,,,1 day,yes,,,,,7991918
+3.0,Parkinson disease,patients,LSNTD7,,,,,,,7 days,yes,,,,,7991918
+3.0,Parkinson disease,patients,SHAM,,,,,,,7 days,yes,,,,,7991918
+2941.0,null,patients,network condition,,,,,,,null,yes,,,,,10401006
+11.0,null,patients,Mongolian gerbils,11.0,0.0,,,10.0,12.0,10-12 weeks,yes,,,,,6532536
+7.0,glioma,patients,survivors,7.0,0.0,,,,,,,,,,,6907781
+6.0,glioma,patients,deceased,6.0,0.0,,,,,,,,,,,6907781
+12.0,glioma,patients,controls,,,,,,,,,,,,,6907781
+0.0,null,patients,null,0.0,0.0,,,,,null,,,,,,5996106
+0.0,null,healthy,null,0.0,0.0,,,,,null,,,,,,5996106
+12.0,healthy,healthy,older adults,7.0,5.0,67.5,,66.0,77.0,66-77,yes,,,,,8276699
+11.0,healthy,healthy,younger adults,6.0,5.0,22.5,,20.0,25.0,20-25,yes,,,,,8276699
+0.0,null,patients,null,0.0,0.0,,,,,,,,,,,2814856
+0.0,null,healthy,null,0.0,0.0,,,,,,,,,,,2814856
+80.0,none,patients,Wistar rats,80.0,0.0,6.0,6.0,6.0,6.0,6-6,yes,,,,,9459164
+98.0,Basal-like,patients,TCGA,,,,,,,,,,,,,8221501
+199.0,Basal-like,patients,METABRIC,,,,,,,,,,,,,8221501
+38.0,healthy,healthy,adults,22.0,9.0,31.258,31.0,22.0,57.0,22-57,,,,,,9349214
+31.0,healthy,healthy,EEG participants,22.0,9.0,31.258,31.0,22.0,57.0,22-57,,,,,,9349214
+2.0,osteosarcoma,patients,Saos-2 cells,1.0,1.0,,,,,,,,,,,3942417
+2.0,osteosarcoma,patients,MG63 cells,1.0,1.0,,,,,,,,,,,3942417
+162.0,MDR-TB,patients,MDR-TB patients,105.0,57.0,34.0,34.0,29.0,42.0,29-42,yes,,,,,3983205
+150.0,null,patients,undergraduate and graduate students,,,21.0,21.0,20.0,21.0,20-21,yes,,,,,7743924
+25.0,stroke with dysphagia,patients,electroacupuncture group,,,,,,,,yes,,,,,10656700
+25.0,stroke with dysphagia,patients,control group,,,,,,,,yes,,,,,10656700
+304.0,null,patients,Italian community-dwelling adults,74.0,230.0,35.28,,18.0,78.0,18-78,no,,,,,7834264
+418.0,null,patients,EMA study participants,,,25.07,,17.0,63.0,17-63,yes,,,,,7235964
+15.0,healthy,healthy,Experiment 1,8.0,7.0,29.0,29.0,21.0,51.0,21-51,yes,,,,,4478379
+15.0,healthy,healthy,Experiment 2,6.0,9.0,26.0,26.0,20.0,49.0,20-49,yes,,,,,4478379
+12.0,auditory processing complaints,patients,LEA,10.0,2.0,10.9,10.0,7.0,14.0,7-14,,,,,,4128035
+12.0,typical development,healthy,REA,10.0,2.0,10.9,10.0,7.0,14.0,7-14,,,,,,4128035
+272.0,scoliosis,patients,AIS,,,,,,,,,,,,,8699618
+26.0,healthy,healthy,healthy,,,,,,,,,,,,,8699618
+0.0,null,patients,Colo829,,,,,,,null,,,,,,8785960
+0.0,null,patients,A375,,,,,,,null,,,,,,8785960
+0.0,null,patients,WM-266.4,,,,,,,null,,,,,,8785960
+0.0,null,patients,A549,,,,,,,null,,,,,,8785960
+0.0,null,patients,PC-3,,,,,,,null,,,,,,8785960
+0.0,null,patients,DU145,,,,,,,null,,,,,,8785960
+5055.0,hypertension,patients,hypertensive patients,,,,,,,,no,,,,,5739392
+4163.0,null,patients,elderly,2030.0,2133.0,,,60.0,103.0,60-103,yes,,,,,9879507
+13000.0,HIV-1 positive,patients,INSTI,9750.0,3250.0,48.0,48.0,18.0,70.0,35-54,yes,,,,,7774984
+92.0,breast cancer,patients,breast cancer patients,,,,,,,,yes,,,,,3282723
+1.0,null,patients,guinea pigs,1.0,0.0,,500.0,500.0,500.0,500,yes,,,,,6691069
+87.0,acquired language impairment due to brain damage,patients,language-impaired cohort,64.0,23.0,61.9,61.0,23.0,82.0,23-82,,,,,,9677348
+38.0,neurotypical adults,healthy,control group,13.0,25.0,,,,,,,,,,,9677348
+155.0,null,patients,HEXACO-60,76.0,275.0,23.4,,,,null,yes,,,,,3931641
+6.0,CsA treatment,patients,KAP Tg mice,6.0,0.0,,,,,,,,,,,3182248
+1.0,synesthete,patients,N.W.,0.0,1.0,24.0,24.0,24.0,24.0,24-24,yes,,,,,4867783
+15.0,non-synesthetic controls,healthy,controls,4.0,11.0,24.2,24.0,22.0,26.0,22-26,yes,,,,,4867783
+40.0,healthy,healthy,total,20.0,20.0,23.0,23.0,20.0,30.0,20-30,,,,,,8545051
+20.0,healthy,healthy,test-retest,10.0,10.0,23.0,23.0,20.0,30.0,20-30,,,,,,8545051
+40.0,diabetes,patients,db/db,40.0,0.0,5.0,5.0,5.0,5.0,5-5,yes,,,,,5443478
+40.0,healthy,healthy,db/+,40.0,0.0,5.0,5.0,5.0,5.0,5-5,yes,,,,,5443478
+2.0,null,patients,C57BL/6J male mice,2.0,0.0,,,,,null,yes,,,,,2533699
+285.0,type 1 diabetes,patients,CSII>12 months,,,16.6,,12.0,20.0,12-20,yes,,,,,4822832
+704.0,type 1 diabetes,patients,MDI>12 months,,,17.1,,12.0,20.0,12-20,yes,,,,,4822832
+15.0,deaf,patients,DE (deaf early),6.0,9.0,,,,,,yes,,,,,7985620
+11.0,deaf,patients,DL (deaf late),5.0,6.0,,,,,,yes,,,,,7985620
+14.0,hearing,healthy,HE (hearing early),2.0,12.0,,,,,,yes,,,,,7985620
+12.0,hearing,healthy,HL (hearing late),6.0,6.0,,,,,,yes,,,,,7985620
+0.0,null,patients,T cell leukemia,,,,,,,null,,,,,,3958508
+0.0,null,healthy,PBMC,,,,,,,null,,,,,,3958508
+16.0,null,patients,Long-Evans male,16.0,0.0,,,11.0,16.0,11-16,yes,,,,,9187087
+16.0,null,patients,Long-Evans female,0.0,16.0,,,11.0,16.0,11-16,yes,,,,,9187087
+16.0,null,patients,Wistar male,16.0,0.0,,,11.0,16.0,11-16,yes,,,,,9187087
+16.0,null,patients,Wistar female,0.0,16.0,,,11.0,16.0,11-16,yes,,,,,9187087
+90.0,psychosis risk,patients,discovery sample,,,,,,,,yes,,,,,6581147
+211.0,maternal smoking effects,patients,replication sample,,,,,,,,yes,,,,,6581147
+48.0,normal or corrected-to-normal vision,healthy,undergraduate students,18.0,30.0,18.88,19.0,18.0,19.0,18-19,yes,,,,,8102837
+52.0,normal or corrected-to-normal vision,healthy,undergraduate students,16.0,36.0,18.846,23.0,18.0,31.0,18-31,yes,,,,,8102837
+6.0,normoxia,healthy,C57BL/6 wild type time-mated females,0.0,6.0,,,,,,,,,,,7034911
+6.0,hypoxia,healthy,C57BL/6 wild type time-mated females,0.0,6.0,,,,,,,,,,,7034911
+4.0,normoxia,healthy,C57BL/6 wild type time-mated females,4.0,0.0,7.0,7.0,7.0,7.0,,,,,,,7034911
+8.0,hypoxia,healthy,C57BL/6 wild type time-mated females,8.0,0.0,7.0,7.0,7.0,7.0,,,,,,,7034911
+0.0,null,patients,null,0.0,0.0,,,,,,,,,,,7771676
+0.0,null,patients,null,0.0,0.0,,,,,,,,,,,3084762
+1304.0,cis-heterosexual individuals,healthy,cis-heterosexual,495.0,809.0,,,,,,no,,,,,8186787
+832.0,individuals with minoritized sexual identities,patients,minoritized sexual identities,,,,,,,,no,,,,,8186787
+197.0,individuals with minoritized gender identities,patients,minoritized gender identities,,,,,,,,no,,,,,8186787
+249.0,acne,patients,self-reported acne,115.0,134.0,,,,,,no,,,,,8049225
+39.0,EAE,patients,C57Bl/6 mice with EAE,,,,,,,,,,,,,4352054
+7.0,none,patients,L71.8TG mice (vehicle),,,,,,,,,,,,,4352054
+6.0,none,patients,L71.8TG mice (PF-01247324),,,,,,,,,,,,,4352054
+8.0,none,healthy,wildtype littermates (vehicle),,,,,,,,,,,,,4352054
+37.0,null,patients,mothers,0.0,37.0,31.16,31.0,20.0,43.0,20-43,,,,,,6007508
+16.0,null,patients,primiparous mothers,0.0,16.0,,,,,,,,,,,6007508
+21.0,null,patients,multiparous mothers,0.0,21.0,,,,,,,,,,,6007508
+3.0,active TB,patients,seniors,1.0,2.0,73.0,73.0,65.0,81.0,65-81,yes,,,,,6438508
+61.0,severe and non-severe pneumonia,patients,severe,33.0,28.0,63.0,,48.0,78.0,48-78,,,,,,8136668
+61.0,severe and non-severe pneumonia,patients,non-severe,,,,,,,,,,,,,8136668
+12.0,Trpv4,patients,Trpv4,12.0,0.0,,,,,,,,,,,7235376
+12.0,WT,patients,WT,11.0,1.0,,,,,,,,,,,7235376
+200.0,severe congenital ptosis,patients,FM flap advancement surgery,111.0,89.0,7.4,7.0,2.0,16.0,2-16,,,,,,7853494
+521.0,skull base neoplasms,patients,all patients,283.0,238.0,54.3,,17.0,86.0,17-86,yes,,,,,7959384
+0.0,,healthy,Pnmt-Cre ROSA26,0.0,0.0,,,,,,,,,,,3144959
+4.0,none,patients,autopsy cases,4.0,0.0,,,20.0,75.0,20-75,no,,,,,4175995
+29.0,hypertension,patients,hypertensive,,,,,,,,,,,,,3154930
+29.0,normotension,patients,normotensive,,,,,,,,,,,,,3154930
+97.0,null,patients,participants,32.0,64.0,19.9,19.0,17.0,42.0,17-42,,,,,,7743977
+0.0,null,healthy,null,,,,,,,,,,,,,7743977
+8.0,null,patients,cadaveric study,4.0,4.0,56.0,56.0,44.0,68.0,44-68,no,,,,,6193610
+3912.0,POP,patients,before DRG,,,,,,,,,,,,,6701833
+3450.0,POP,patients,after DRG,,,,,,,,,,,,,6701833
+2194.0,MDE,patients,MDE,1465.0,729.0,19.2,19.0,18.0,22.0,18-22,yes,,,,,6053211
+30.0,breast cancer,patients,MRI,0.0,30.0,55.0,55.0,45.0,65.0,45-65,,,,,,2674775
+1273.0,primary PPH,patients,IPI <24 months,0.0,1273.0,27.1,27.0,21.0,35.0,21-35,,,,,,9292068
+1305.0,no primary PPH,healthy,IPI 24-60 months,0.0,1305.0,27.5,27.0,21.0,35.0,21-35,,,,,,9292068
+0.0,null,patients,S1pr2,,,,,,,,,,,,,5962071
+3.0,null,patients,axolotls,2.0,1.0,16.0,16.0,16.0,16.0,16-16,yes,,,,,5570274
+93.0,red-green congenital colour vision deficiencies,patients,colour vision deficient,90.0,3.0,30.4,30.0,18.0,59.0,18-59,yes,,,,,4839569
+127.0,normal trichromats,healthy,control,79.0,48.0,29.3,29.0,17.0,60.0,17-60,yes,,,,,4839569
+91.0,red-green congenital colour vision deficiencies,patients,colour vision deficient,88.0,3.0,30.5,30.0,18.0,59.0,18-59,yes,,,,,4839569
+47.0,red-green congenital colour vision deficiencies,patients,colour vision deficient,47.0,0.0,31.8,32.0,18.0,59.0,18-59,yes,,,,,4839569
+0.0,null,patients,null,0.0,0.0,,,,,null,no,,,,,4294125
+0.0,null,patients,PC3 cells,,,,,,,,no,,,,,3525640
+24.0,none,patients,Proprioceptive training with feedback (PTWF),,,,,,,,,,,,,8975733
+24.0,none,patients,Proprioceptive training no feedback (PTNF),,,,,,,,,,,,,8975733
+24.0,none,patients,Control (CTRL),,,,,,,,,,,,,8975733
+135.0,HBOC,patients,BRCA1 and BRCA2 germline variants,,,,,,,,yes,,,,,7799847
+18410.0,postoperative delirium,patients,elderly,,,,,,,,yes,,,,,10346854
+335.0,healthy,healthy,prosaccade,,,,,,,,yes,,,,,5434188
+364.0,healthy,healthy,word reading,,,,,,,,yes,,,,,5434188
+28.0,healthy,healthy,patients undergoing sinonasal surgery,18.0,10.0,46.6,,18.0,66.0,18-66,yes,,,,,3875580
+291.0,AD,patients,AD,,,,,,,,,,,,,4529880
+90.0,MCI converters,patients,MCI converters,,,,,,,,,,,,,4529880
+357.0,stable MCI,patients,stable MCI,,,,,,,,,,,,,4529880
+331.0,HC,healthy,HC,,,,,,,,,,,,,4529880
+10.0,normal,healthy,observers,5.0,5.0,,,,,,,,,,,10369874
+0.0,null,patients,null,,,,,,,,,,,,,4047101
+0.0,,healthy,Diversispora epigaea,,,,,,,,,,,,,3154914
+0.0,,healthy,Glomus versiforme,,,,,,,,,,,,,3154914
+811.0,H. pylori infection,patients,H. pylori positive,251.0,560.0,59.2,,,,null,no,,,,,4447445
+2533.0,null,patients,young women,0.0,2533.0,15.0,15.0,13.0,20.0,13-20,yes,,,,,6336295
+12.0,healthy,healthy,WT mice,12.0,0.0,,,,,P56,yes,,,,,5049801
+9.0,patients,patients,Rbfox3 mice,9.0,0.0,,,,,P56,yes,,,,,5049801
+8.0,healthy,healthy,WT mice,8.0,0.0,,,,,P56,yes,,,,,5049801
+8.0,patients,patients,Rbfox3 mice,8.0,0.0,,,,,P56,yes,,,,,5049801
+0.0,null,patients,null,0.0,0.0,,,,,null,no,,,,,9075657
+26.0,HIV-positive with tuberculosis (TB),patients,hospital workers,,,,,,,,yes,,,,,3925080
+5522.0,null,patients,Wave 3 ITC BD Survey,,,,,,,null,yes,,,,,4090160
+0.0,null,healthy,normal donors,,,,,,,,,,,,,7689020
+23.0,tinnitus patients,patients,tinnitus patients,,,,,23.0,66.0,23-66,yes,,,,,3319920
+21.0,controls,healthy,controls,,,,,27.0,67.0,27-67,yes,,,,,3319920
+0.0,null,patients,null,0.0,0.0,,,,,,,,,,,3940443
+8.0,normal,healthy,Pla,,,,,,,,yes,,,,,5321410
+5891.0,nave T cells,patients,C57Bl/6,,,,,,,,yes,,,,,4798282
+21.0,mildly-affected SAH,patients,mildly-affected SAH,,,,,,,,,,,,,3946189
+12.0,severely-affected SAH,patients,severely-affected SAH,,,,,,,,,,,,,3946189
+0.0,null,patients,null,0.0,0.0,,,,,,,,,,,7524009
+0.0,null,healthy,null,0.0,0.0,,,,,,,,,,,7524009
+146.0,null,patients,Wistar neonate rats,73.0,73.0,,,,,,,,,,,5359529
+99.0,null,patients,German-French bilinguals,,,,,,,null,yes,,,,,9423630
+22.0,non-clinical,healthy,non-clinical volunteers,,,,,,,,yes,,,,,6475651
+16.0,null,patients,adult female green turtles,0.0,16.0,,,,,null,,,,,,4580322
+12.0,none,healthy,physically active men,12.0,0.0,21.9,22.0,21.0,24.0,21-24,,,,,,6548427
+0.0,null,patients,null,0.0,0.0,,,,,,,,,,,4723304
+20.0,arrhythmogenic cardiomyopathy,patients,LMNA mutation carriers,10.0,10.0,,,12.0,58.0,,yes,,,12.0,58.0,4383583
+67.0,FTD,patients,C9+,,,,,,,,,,,,,6535128
+56.0,FTD,patients,C9-,,,,,,,,,,,,,6535128
+27.0,healthy,healthy,controls,,,,,,,,,,,,,6535128
+233.0,null,patients,intervention,119.0,114.0,25.0,25.0,18.0,40.0,,,,,,,4890862
+233.0,null,patients,control,41.0,42.0,26.0,26.0,19.0,39.0,,,,,,,4890862
+15.0,ADHD,patients,ADHD,8.0,7.0,15.3,15.0,12.0,18.0,12-18,,,,,,9077889
+57.0,ASD,patients,ASD,43.0,14.0,13.7,13.0,9.0,18.0,9-18,,,,,,9077889
+5.0,control,healthy,Control fish,,,,,,,,yes,,,,,3688944
+5.0,exposure to brackish water,healthy,Experimental fish,,,,,,,,yes,,,,,3688944
+14.0,null,patients,undergraduate students,8.0,6.0,20.0,20.0,19.0,22.0,19-22,,,,,,5602348
+7.0,obesity,patients,high-fat diet,0.0,7.0,6.0,6.0,6.0,6.0,6-6,yes,,,,,3843710
+0.0,null,patients,null,,,,,,,,,,,,,10723708
+723.0,critically ill patients,patients,ICU admissions,444.0,279.0,53.0,53.0,39.0,69.0,39-69,yes,,,,,7365402
+0.0,,healthy,DRG cells,,,,,,,,yes,,,,,4196919
+80.0,HIV-infected PWID,patients,HHRP+,,,,,,,,,,,,,4320073
+80.0,HIV-infected PWID,patients,3H+,,,,,,,,,,,,,4320073
+20.0,null,patients,pygmy rabbits,,,,,,,null,yes,,,,,5354270
+861.0,Alzheimer's Disease,patients,AD patients,,,,,70.0,80.0,70-80,yes,,,,,10533929
+5204.0,head and neck cancer,patients,case group,,,,,,,,yes,,,,,3747175
+5518.0,head and neck cancer,healthy,control group,,,,,,,,yes,,,,,3747175
+12.0,healthy,healthy,young participants,6.0,6.0,30.34,30.0,24.0,36.0,24-36,,,,,,5984391
+0.0,,healthy,,,,,,,,,,,,,,5984391

@@ -9,14 +9,16 @@ import json
 # Change directory for importing
 import sys
 sys.path.append('../')
-from nipub_templates.pain import ZERO_SHOT_PAIN_DESIGN_FC
-from nipub_templates.clean import clean_predictions_pain
+from nipub_templates.demographics.prompts import ZERO_SHOT_MULTI_GROUP_FC
+from nipub_templates.demographics.clean import clean_predictions
 
-# Load 10 rows
-docs = pd.read_csv('/data/alejandro/projects/ns-pond/source/mega-ni-dataset/pubget_searches/fmri_journal/query_875641cf4cbc22f32027447cd62fca27/subset_allArticles_extractedData/text_subset.csv')
-                   
+# Load input data
+docs = pd.read_csv('/data/alejandro/projects/ns-pond/source/mega-ni-dataset/pubget_searches/original/fmri_journal/query_875641cf4cbc22f32027447cd62fca27/subset_allArticles_extractedData/text.csv')
 
-output_dir = Path('../outputs/extractions/all')
+docs = docs.head(1000)
+
+
+output_dir = Path('../outputs/demographics/extractions')
 openai_client = OpenAI(api_key=os.getenv('MYOPENAI_API_KEY'))
 
 def _run(extraction_model, extraction_client, docs, prepend='', **extract_kwargs):
@@ -43,9 +45,10 @@ def _run(extraction_model, extraction_client, docs, prepend='', **extract_kwargs
             pred['pmcid'] = _id
             outputs.append(pred)
 
-    json.dump(outputs, open(predictions_path, 'w'))
+    json.dump(outputs, open(predictions_path, 'w'), indent=2)
 
-    clean_predictions_pain(predictions).to_csv(
+    # Clean and save demographics predictions
+    clean_predictions(predictions).to_csv(
         clean_predictions_path, index=False
     )
 
@@ -56,5 +59,5 @@ models = [
 
 
 for model_name, client in models:
-    _run(model_name, client, docs, prepend='md_paindesign-zeroshot',
-         **ZERO_SHOT_PAIN_DESIGN_FC, num_workers=20)
+    _run(model_name, client, docs, prepend='md_demographics-zeroshot-all',
+         **ZERO_SHOT_MULTI_GROUP_FC, num_workers=20)

@@ -1,4 +1,4 @@
-from .schemas import BaseDemographicsSchema, RelevantSentSchema, FewShot2Schema
+from .schemas import BaseDemographicsSchema, RelevantSentSchema, FewShot2Schema, InclusionExclusionCriteria
 
 base_message = """
 You will be provided with a text sample from a scientific journal.
@@ -284,8 +284,6 @@ Now it's your turn.
 
 Text sample: ${text}
 """
-
-
 FEW_SHOT_FC_2 = {
     "search_query": "How many participants or subjects were recruited for this study?",
     "messages": [
@@ -295,6 +293,103 @@ FEW_SHOT_FC_2 = {
         }
     ],
     "output_schema": FewShot2Schema.model_json_schema()
+}
+
+
+inclusion_exclusion_message = """
+You will be provided with a text sample from a scientific journal.
+The sample is delimited with triple backticks.
+
+Your task is to extract the VERBATIM inclusion and exclusion criteria used to select participants for the study.
+
+CRITICAL INSTRUCTIONS:
+- Extract the EXACT text as written in the article - do NOT paraphrase, summarize, or rewrite
+- If there is a dedicated section with headers like "Inclusion Criteria" or "Exclusion Criteria", extract the complete text from those sections
+- If criteria are mentioned in prose (embedded within participant descriptions), extract those exact sentences
+- If NO specific inclusion criteria are mentioned, return null for inclusion_criteria
+- If NO specific exclusion criteria are mentioned, return null for exclusion_criteria
+- Indicate whether there is a dedicated section outlining criteria separately, or if they are only mentioned in prose
+- Note where in the text you found the criteria (e.g., which section)
+
+Example 1 - Dedicated section:
+
+Text sample:
+```
+Participants
+
+Inclusion Criteria:
+- Right-handed adults aged 18-65 years
+- Native English speakers
+- Normal or corrected-to-normal vision
+
+Exclusion Criteria:
+- History of neurological disorders
+- Current psychiatric medication
+- MRI contraindications (metal implants, claustrophobia)
+- Substance abuse in the past 5 years
+
+Twenty-five healthy volunteers (13 female, mean age 28.3 ± 5.2 years) met these criteria and participated in the study.
+```
+
+Expected response:
+{
+    "inclusion_criteria": "- Right-handed adults aged 18-65 years\n- Native English speakers\n- Normal or corrected-to-normal vision",
+    "exclusion_criteria": "- History of neurological disorders\n- Current psychiatric medication\n- MRI contraindications (metal implants, claustrophobia)\n- Substance abuse in the past 5 years",
+    "has_dedicated_section": true,
+    "criteria_location": "Participants section with dedicated Inclusion/Exclusion subsections"
+}
+
+Example 2 - Criteria in prose:
+
+Text sample:
+```
+Participants
+
+Thirty-two participants (16 female, mean age 24.1 years) were recruited from the local community.
+All participants were right-handed, had normal or corrected-to-normal vision, and reported no history of neurological or psychiatric disorders.
+Participants with current medication use or substance abuse history were not eligible for the study.
+```
+
+Expected response:
+{
+    "inclusion_criteria": "All participants were right-handed, had normal or corrected-to-normal vision",
+    "exclusion_criteria": "reported no history of neurological or psychiatric disorders. Participants with current medication use or substance abuse history were not eligible for the study",
+    "has_dedicated_section": false,
+    "criteria_location": "Embedded in Participants section description"
+}
+
+Example 3 - No criteria mentioned:
+
+Text sample:
+```
+Participants
+
+Twenty healthy volunteers participated in the study. The mean age was 25.3 years (SD = 4.1) with 12 females and 8 males.
+All participants provided informed consent.
+```
+
+Expected response:
+{
+    "inclusion_criteria": null,
+    "exclusion_criteria": null,
+    "has_dedicated_section": false,
+    "criteria_location": "No specific criteria mentioned"
+}
+
+Now extract the inclusion and exclusion criteria from the following text sample:
+
+Text sample: ```${text}```
+"""
+
+INCLUSION_EXCLUSION_CRITERIA = {
+    "search_query": "What are the inclusion and exclusion criteria for participant selection?",
+    "messages": [
+        {
+            "role": "user",
+            "content": inclusion_exclusion_message + "\n Call the extractData function to save the output."
+        }
+    ],
+    "output_schema": InclusionExclusionCriteria.model_json_schema()
 }
 
 
