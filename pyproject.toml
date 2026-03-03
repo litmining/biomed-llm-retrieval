@@ -1,0 +1,59 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "biomed-llm-retrieval"
+version = "0.1.0"
+description = "Utilities and prompt templates for biomedical LLM retrieval experiments."
+requires-python = ">=3.11"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["nipub_templates*"]
+
+[tool.setuptools.package-data]
+nipub_templates = ["cobidas/*.json", "cobidas/*.md"]
+"nipub_templates.nv_task" = ["*.txt"]
+
+[tool.pixi.workspace]
+channels = ["conda-forge"]
+platforms = ["linux-64"]
+
+[tool.pixi.tasks]
+lab = "jupyter lab"
+
+[tool.pixi.dependencies]
+python = "3.11.*"
+pip = ">=25,<26"
+numpy = ">=1.26,<3"
+pandas = ">=2.2,<3"
+scipy = ">=1.13,<2"
+scikit-learn = ">=1.5,<2"
+matplotlib = ">=3.9,<4"
+seaborn = ">=0.13,<0.14"
+requests = ">=2.32,<3"
+beautifulsoup4 = ">=4.12,<5"
+lxml = ">=5,<7"
+tqdm = ">=4.67,<5"
+jupyterlab = ">=4.4,<5"
+ipykernel = ">=6.29,<7"
+nmslib = ">=2.1,<3"
+
+[tool.pixi.pypi-dependencies]
+"biomed-llm-retrieval" = { path = ".", editable = true }
+publang = { path = "../publang", editable = true }
+labelrepo = { path = "../labelbuddy-annotations/analysis/labelrepo", editable = true }
+openai = ">=1.40,<2"
+pydantic = ">=2.8,<3"
+transformers = ">=4.46,<5"
+accelerate = ">=1.0,<2"
+torch = ">=2.4,<3"
+bert-score = ">=0.3.13,<0.4"
+scispacy = ">=0.5.5,<0.6"
+thefuzz = ">=0.22,<0.23"
+scikit-llm = ">=1.0,<2"
+
+# The NuExtract scripts opt into flash-attention explicitly via
+# `attn_implementation="flash_attention_2"`. Install `flash-attn`
+# separately in a CUDA-enabled environment if those workflows are needed.

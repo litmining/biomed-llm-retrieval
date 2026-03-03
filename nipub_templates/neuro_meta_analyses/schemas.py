@@ -1,4 +1,5 @@
 from typing import List
+from enum import Enum
 from pydantic import BaseModel, Field
 from typing_extensions import Literal, Optional, Dict
 
@@ -156,3 +157,106 @@ class StudyCriteriaModel(BaseModel):
     """Structured yes/no criteria for inclusion and exclusion in neuroimaging meta-analyses."""
     inclusion: InclusionCriteriaModel
     exclusion: ExclusionCriteriaModel
+
+
+
+class StudyListPresence(str, Enum):
+    included = "included"
+    excluded = "excluded"
+    both = "both"
+    none = "none"
+
+
+class StudyListLocation(str, Enum):
+    main_text = "Main Text"
+    supplementary_file = "Supplementary File"
+
+
+class DataSharingLocation(str, Enum):
+    public_repository = "Public Repository"
+    supplementary_material = "Supplementary Material"
+    both = "Both"
+
+
+class CoordinateDataFormat(str, Enum):
+    sleuth = "Sleuth"
+    nimare = "NiMARE"
+    csv = "CSV"
+    excel = "Excel"
+    json = "JSON"
+
+
+class ResultDataFormat(str, Enum):
+    nifti = "NIfTI"
+    csv = "CSV"
+    excel = "Excel"
+    json = "JSON"
+    zip = "ZIP"
+
+
+class StudyListModel(BaseModel):
+    presence: StudyListPresence = Field(
+        description="Whether the meta-analysis explicitly lists included studies, excluded studies, both, or neither."
+    )
+    included_studies_location: Optional[StudyListLocation] = Field(
+        default=None,
+        description="Location of the explicit included-studies list, if present."
+    )
+    excluded_studies_location: Optional[StudyListLocation] = Field(
+        default=None,
+        description="Location of the explicit excluded-studies list, if present."
+    )
+
+
+class CoordinateDataSharingModel(BaseModel):
+    shared: Optional[bool] = Field(
+        default=None,
+        description="True if the paper explicitly reports sharing coordinate/input data; false only if it explicitly states the data are not shared; null if unclear."
+    )
+    sharing_location: Optional[DataSharingLocation] = Field(
+        default=None,
+        description="Whether coordinate/input data are shared via a public repository, supplementary material, or both."
+    )
+    data_format: Optional[CoordinateDataFormat] = Field(
+        default=None,
+        description="Format of the shared coordinate/input data, if explicitly stated."
+    )
+    repository_name: Optional[str] = Field(
+        default=None,
+        description="Name of the public repository where coordinate/input data are shared, if applicable."
+    )
+    repository_url: Optional[str] = Field(
+        default=None,
+        description="URL of the public repository where coordinate/input data are shared, if applicable."
+    )
+
+
+class ResultDataSharingModel(BaseModel):
+    shared: Optional[bool] = Field(
+        default=None,
+        description="True if the paper explicitly reports sharing result/map data; false only if it explicitly states the data are not shared; null if unclear."
+    )
+    sharing_location: Optional[DataSharingLocation] = Field(
+        default=None,
+        description="Whether result/map data are shared via a public repository, supplementary material, or both."
+    )
+    data_format: Optional[ResultDataFormat] = Field(
+        default=None,
+        description="Format of the shared result/map data, if explicitly stated."
+    )
+    repository_name: Optional[str] = Field(
+        default=None,
+        description="Name of the public repository where result/map data are shared, if applicable."
+    )
+    repository_url: Optional[str] = Field(
+        default=None,
+        description="URL of the public repository where result/map data are shared, if applicable."
+    )
+
+
+class IncludedStudyListModel(BaseModel):
+    study_list: StudyListModel
+    coordinate_data: CoordinateDataSharingModel
+    result_data: ResultDataSharingModel
+
+
